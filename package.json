@@ -5,8 +5,8 @@
     "repository": "git@github.com:deegitalbe/laravel-trustup-io-ubl-to-html.git",
     "main": "index.js",
     "devDependencies": {
-        "@changesets/cli": "^2.29.7",
-        "lefthook": "^2.0.3"
+        "@changesets/cli": "^2.29.8",
+        "lefthook": "^2.0.9"
     },
     "license": "MIT",
     "private": true,
