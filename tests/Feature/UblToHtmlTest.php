@@ -11,7 +11,6 @@ use Henrotaym\LaravelPackageVersioning\Testing\Traits\InstallPackageTest;
 use Henrotaym\LaravelTestSuite\TestSuite;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
-use function PHPUnit\Framework\assertContains;
 use function PHPUnit\Framework\assertInstanceOf;
 use function PHPUnit\Framework\assertTrue;
 
@@ -25,17 +24,17 @@ class UblToHtmlTest extends TestCase
 
         assertInstanceOf(UblToHtmlService::class, $service);
 
-        $ublContent = __DIR__. '/../Stubs/Xml/UBL-Invoice-2.1-Salameche.xml';
+        $ublContent = file_get_contents(__DIR__.'/../Stubs/Xml/UBL-Invoice-2.1-Salameche.xml');
 
         // dd($ublContent);
 
         $htmlContent = $service->generate($ublContent);
 
-        $dom = new \DOMDocument();
+        $dom = new \DOMDocument;
         libxml_use_internal_errors(true);
         $result = $dom->loadHTML($htmlContent);
         assertTrue($result);
-        
+
     }
 
     public function test_it_can_assert_true_on_service()
