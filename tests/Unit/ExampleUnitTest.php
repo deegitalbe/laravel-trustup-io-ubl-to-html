@@ -1,4 +1,5 @@
 <?php
+
 namespace Deegitalbe\LaravelTrustupIoUblToHtml\Tests\Unit;
 
 use Deegitalbe\LaravelTrustupIoUblToHtml\Tests\TestCase;

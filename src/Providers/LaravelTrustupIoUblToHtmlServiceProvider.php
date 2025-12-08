@@ -1,4 +1,5 @@
 <?php
+
 namespace Deegitalbe\LaravelTrustupIoUblToHtml\Providers;
 
 use Deegitalbe\LaravelTrustupIoUblToHtml\LaravelTrustupIoUblToHtml;

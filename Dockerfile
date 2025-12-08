@@ -4,9 +4,9 @@ COPY --from=composer:2.5.8 /usr/bin/composer /usr/bin/composer
 
 ADD --chmod=0755 https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
 
-RUN apk update --no-cache && \
-    apk add --no-cache libxslt-dev && \
-    install-php-extensions xsl
+RUN apk add --no-cache --virtual .build-deps libxslt-dev &&\
+    install-php-extensions xsl &&\
+    apk del .build-deps
 
 WORKDIR /opt/apps/app
 

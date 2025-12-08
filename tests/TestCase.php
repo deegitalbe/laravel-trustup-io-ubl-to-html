@@ -1,9 +1,10 @@
 <?php
+
 namespace Deegitalbe\LaravelTrustupIoUblToHtml\Tests;
 
 use Deegitalbe\LaravelTrustupIoUblToHtml\LaravelTrustupIoUblToHtml;
-use Henrotaym\LaravelPackageVersioning\Testing\VersionablePackageTestCase;
 use Deegitalbe\LaravelTrustupIoUblToHtml\Providers\LaravelTrustupIoUblToHtmlServiceProvider;
+use Henrotaym\LaravelPackageVersioning\Testing\VersionablePackageTestCase;
 
 class TestCase extends VersionablePackageTestCase
 {
@@ -16,25 +17,25 @@ class TestCase extends VersionablePackageTestCase
     {
         $this->loadMigrations();
     }
-    
+
     public function getServiceProviders(): array
     {
         return [
-            LaravelTrustupIoUblToHtmlServiceProvider::class
+            LaravelTrustupIoUblToHtmlServiceProvider::class,
         ];
     }
 
     protected function loadMigrations()
     {
-        foreach($this->getMigrations() as $migration):
+        foreach ($this->getMigrations() as $migration) {
             app()->make($migration)->up();
-        endforeach;
+        }
     }
 
     /**
      * Define your migrations files here.
-     * 
-     * @return array<int, string> 
+     *
+     * @return array<int, string>
      */
     protected function getMigrations(): array
     {

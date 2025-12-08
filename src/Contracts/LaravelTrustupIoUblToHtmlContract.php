@@ -1,13 +1,14 @@
 <?php
+
 namespace Deegitalbe\LaravelTrustupIoUblToHtml\Contracts;
 
-use Henrotaym\LaravelPackageVersioning\Services\Versioning\Contracts\VersionablePackageContract;
 use Henrotaym\LaravelContainerAutoRegister\Services\AutoRegister\Contracts\AutoRegistrableContract;
+use Henrotaym\LaravelPackageVersioning\Services\Versioning\Contracts\VersionablePackageContract;
 
 /**
  * Versioning package.
  */
-interface LaravelTrustupIoUblToHtmlContract extends VersionablePackageContract, AutoRegistrableContract
+interface LaravelTrustupIoUblToHtmlContract extends AutoRegistrableContract, VersionablePackageContract
 {
     public function getTrue(): bool;
 }

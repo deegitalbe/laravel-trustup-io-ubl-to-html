@@ -1,5 +1,5 @@
 <?php
 
 return [
-  "salam" => true
+    'salam' => true,
 ];
