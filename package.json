@@ -1,0 +1,23 @@
+{
+    "name": "@deegitalbe/laravel-trustup-io-ubl-to-html",
+    "version": "0.0.0",
+    "description": "",
+    "private": true,
+    "scripts": {
+        "release": "changeset publish",
+        "postversion": "git push && git push --tags"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/deegitalbe/laravel-trustup-io-ubl-to-html.git"
+    },
+    "author": "Henrotay Mathieu <mathieu.henrotay@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/deegitalbe/laravel-trustup-io-ubl-to-html/issues"
+    },
+    "homepage": "https://github.com/deegitalbe/laravel-trustup-io-ubl-to-html#readme",
+    "devDependencies": {
+        "@changesets/cli": "^2.26.1"
+    }
+}

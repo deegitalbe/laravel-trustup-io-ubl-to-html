@@ -1,0 +1,11 @@
+{
+  "name": "@henrotaym/laravel-helpers",
+  "version": "1.6.1",
+  "main": "index.js",
+  "repository": "git@github.com:henrotaym/laravel-helpers.git",
+  "author": "Mathieu Henrotay <mathieu.henrotay@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  }
+}

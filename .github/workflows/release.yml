@@ -1,0 +1,89 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - "main"
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Retrieve slack users
+        id: slack_users
+        uses: deegitalbe/github-action-trustup-io-slack-users@v1
+        with:
+          username: ${{ github.triggering_actor }}
+      - name: Prepare Terraform variables
+        id: terraform_variables
+        uses: henrotaym/prepare-terraform-variables-action@v3
+        with:
+          app_key: ${{ github.event.repository.name }}
+          github_branch: ${{ github.ref }}
+      - name: Setup Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+      - name: Create Release Pull Request
+        uses: changesets/action@v1
+        id: changesets
+        with:
+          publish: yarn release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Publish to packagist"
+        if: steps.changesets.outputs.published == 'true'
+        uses: mnavarrocarter/packagist-update@v1.0.0
+        with:
+          username: henrotaym
+          api_token: ${{ secrets.PACKAGIST_API_TOKEN }}
+      - name: Notify failure
+        if: ${{ failure() }}
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_USERNAME: TrustUp.IO
+          SLACK_ICON: "https://avatars.slack-edge.com/2022-11-24/4423352230964_495f6791123bff9ca3ef_512.png"
+          SLACK_TITLE: "${{ steps.terraform_variables.outputs.trustup_app_key }} (package)"
+          SLACK_MESSAGE: ":rotating_light: Linter failed\nAdversity leads to greatness :male_mage:\n${{ steps.slack_users.outputs.user_mention }}\n${{ github.event.head_commit.message }}"
+          SLACK_COLOR: "#F8312F"
+          SLACK_FOOTER: "Powered by automated github action"
+          SLACK_WEBHOOK: ${{ secrets.SLACK_DEPLOY_WEBHOOK_URL }}
+      - name: "Notify cancellation"
+        if: ${{ cancelled() }}
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_USERNAME: TrustUp.IO
+          SLACK_ICON: "https://avatars.slack-edge.com/2022-11-24/4423352230964_495f6791123bff9ca3ef_512.png"
+          SLACK_TITLE: "${{ steps.terraform_variables.outputs.trustup_app_key }} (package)"
+          SLACK_MESSAGE: ":man-gesturing-no: Workflow cancelled\n${{ steps.slack_users.outputs.user_mention }}\n${{ github.event.head_commit.message }}"
+          SLACK_COLOR: "#d1d5db"
+          SLACK_FOOTER: "Powered by automated github action"
+          SLACK_WEBHOOK: ${{ secrets.SLACK_DEPLOY_WEBHOOK_URL }}
+      - name: "Notify publication"
+        if: steps.changesets.outputs.published == 'true'
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_USERNAME: TrustUp.IO
+          SLACK_ICON: "https://avatars.slack-edge.com/2022-11-24/4423352230964_495f6791123bff9ca3ef_512.png"
+          SLACK_TITLE: "${{ steps.terraform_variables.outputs.trustup_app_key }} (package)"
+          SLACK_MESSAGE: "🏷️ ${{fromJson(steps.changesets.outputs.publishedPackages)[0].version}} version published\n${{ steps.slack_users.outputs.user_mention }}\n${{ github.event.head_commit.message }}"
+          SLACK_FOOTER: "Powered by automated github action"
+          SLACK_WEBHOOK: ${{ secrets.SLACK_DEPLOY_WEBHOOK_URL }}
+      - name: "Notify pull request"
+        if: steps.changesets.outputs.pullRequestNumber >= '1'
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_USERNAME: TrustUp.IO
+          SLACK_ICON: "https://avatars.slack-edge.com/2022-11-24/4423352230964_495f6791123bff9ca3ef_512.png"
+          SLACK_TITLE: "${{ steps.terraform_variables.outputs.trustup_app_key }} (package)"
+          SLACK_MESSAGE: "Approve pull request to publish\n${{ steps.slack_users.outputs.user_mention }}\n${{ github.event.head_commit.message }}\n<${{ github.server_url }}/${{ github.repository }}/pull/${{ steps.changesets.outputs.pullRequestNumber }}|See details>"
+          SLACK_COLOR: "#92dce5"
+          SLACK_FOOTER: "Powered by automated github action"
+          SLACK_WEBHOOK: ${{ secrets.SLACK_DEPLOY_WEBHOOK_URL }}
