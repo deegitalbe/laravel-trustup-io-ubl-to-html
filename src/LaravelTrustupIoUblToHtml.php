@@ -4,6 +4,7 @@ namespace Deegitalbe\LaravelTrustupIoUblToHtml;
 use Deegitalbe\LaravelTrustupIoUblToHtml\Contracts\LaravelTrustupIoUblToHtmlContract;
 use Henrotaym\LaravelPackageVersioning\Services\Versioning\VersionablePackage;
 
+
 class LaravelTrustupIoUblToHtml extends VersionablePackage implements LaravelTrustupIoUblToHtmlContract
 {
     public static function prefix(): string

@@ -5,6 +5,9 @@ use Deegitalbe\LaravelTrustupIoUblToHtml\LaravelTrustupIoUblToHtml;
 use Deegitalbe\LaravelTrustupIoUblToHtml\Services\UblToHtmlService;
 use Henrotaym\LaravelPackageVersioning\Facades\Abstracts\VersionablePackageFacade;
 
+/**
+ * @method static bool getTrue()
+ */
 class LaravelTrustupIoUblToHtmlFacade extends VersionablePackageFacade
 {
     public static function getPackageClass(): string

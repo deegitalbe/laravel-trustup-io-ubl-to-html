@@ -2,6 +2,7 @@
 namespace Deegitalbe\LaravelTrustupIoUblToHtml\Tests\Feature;
 
 use Deegitalbe\LaravelTrustupIoUblToHtml\Contracts\LaravelTrustupIoUblToHtmlContract;
+use Deegitalbe\LaravelTrustupIoUblToHtml\Facades\LaravelTrustupIoUblToHtmlFacade;
 use Deegitalbe\LaravelTrustupIoUblToHtml\LaravelTrustupIoUblToHtml;
 use Deegitalbe\LaravelTrustupIoUblToHtml\Services\UblToHtmlService;
 use Deegitalbe\LaravelTrustupIoUblToHtml\Tests\TestCase;
@@ -35,8 +36,7 @@ class UblToHtmlTest extends TestCase
 
     public function test_it_can_assert_true_on_service()  
     {
-        
-        $this->assertTrue(LaravelTrustupIoUblToHtml::getTrue());
+        $this->assertTrue(LaravelTrustupIoUblToHtmlFacade::getTrue());
     }
 
     public function test_it_can_instanciate_facade()

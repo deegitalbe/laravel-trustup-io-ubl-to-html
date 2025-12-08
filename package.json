@@ -1,23 +1,20 @@
 {
-    "name": "@deegitalbe/laravel-trustup-io-ubl-to-html",
-    "version": "0.0.0",
-    "description": "",
+    "name": "laravel-trustup-io-ubl-to-html",
+    "version": "0.0.1",
+    "author": "Mathieu Henrotay <mathieu.henrotay@gmail.com>",
+    "repository": "git@github.com:deegitalbe/laravel-trustup-io-ubl-to-html.git",
+    "main": "index.js",
+    "devDependencies": {
+        "@changesets/cli": "^2.29.7",
+        "lefthook": "^2.0.3"
+    },
+    "license": "MIT",
     "private": true,
     "scripts": {
-        "release": "changeset publish",
-        "postversion": "git push && git push --tags"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/deegitalbe/laravel-trustup-io-ubl-to-html.git"
-    },
-    "author": "Henrotay Mathieu <mathieu.henrotay@gmail.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/deegitalbe/laravel-trustup-io-ubl-to-html/issues"
-    },
-    "homepage": "https://github.com/deegitalbe/laravel-trustup-io-ubl-to-html#readme",
-    "devDependencies": {
-        "@changesets/cli": "^2.26.1"
+        "postversion": "npm run push",
+        "push": "git push && git push --tags",
+        "commit": "gitmoji -c && npm run push",
+        "commit:all": "git add . && npm run commit",
+        "version:alpha": "npm version prerelease --preid=alpha"
     }
 }
