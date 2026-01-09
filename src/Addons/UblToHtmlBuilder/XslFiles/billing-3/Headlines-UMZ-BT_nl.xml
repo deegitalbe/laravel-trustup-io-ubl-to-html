@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SemanticModel>
+    <BusinessTerm id="UMZ-BT-001">
+        <TermName>Fax</TermName>
+        <DisplayName>Fax</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-002">
+        <TermName>Datum betalingsperiode</TermName>
+        <DisplayName>Betalingsdatum</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-003">
+        <TermName>Handelsrekening</TermName>
+        <DisplayName>Handelsrekening</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-005">
+        <TermName>Omschrijving</TermName>
+        <DisplayName>Omschrijving</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-006">
+        <TermName>Bedrag incl. BTW</TermName>
+        <DisplayName>Bedrag incl. BTW</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-007">
+        <TermName>Factuurmunteenheid</TermName>
+        <DisplayName>Munteenheid</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-008">
+        <TermName>Aanvullende informatie</TermName>
+        <DisplayName>Extra info</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-011">
+        <TermName>Facturatieperiode</TermName>
+        <DisplayName>Periode</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-020">
+        <TermName>Maatschappelijke naam en adres</TermName>
+        <DisplayName>Maatschappelijke zetel</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-012">
+        <TermName>Gecrediteerd bedrag</TermName>
+        <DisplayName>Gecrediteerd</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-013">
+        <TermName>Boekhoudkundige informatie</TermName>
+        <DisplayName>Boekhoudinfo</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-014">
+        <TermName>Munteenheid creditnota</TermName>
+        <DisplayName>Munteenheid creditnota</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-015">
+        <TermName>Datum van de creditnota</TermName>
+        <DisplayName>Datum creditnota</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-016">
+        <TermName>Adres-ID</TermName>
+        <DisplayName>Adres-ID</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-017">
+        <TermName>Klantnummer</TermName>
+        <DisplayName>Klantnr.</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-018">
+        <TermName>Referentie naar oorspronkelijke factuur</TermName>
+        <DisplayName>Ref. orig. factuur</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-019">
+        <TermName>Nr.</TermName>
+        <DisplayName>Nr.</DisplayName>
+    </BusinessTerm>
+</SemanticModel>

@@ -1,0 +1,3425 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<ShortName>UNECE</ShortName>
+		<Version></Version>
+		<CanonicalUri></CanonicalUri>
+		<CanonicalVersionUri></CanonicalVersionUri>
+	</Identification>
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="string"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="string"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>10</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gruppe</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>11</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ausrüstung</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>13</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ration</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>14</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Schuss</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>15</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Stick, militärisch</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>20</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zwanzig-Fuß-Container</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>21</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Vierzig-Fuß-Container</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>22</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Deziliter pro Gramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>23</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Kubikzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>24</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Theoretisches Pfund</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>25</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Quadratzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>27</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Theoretische Tonne</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>28</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>33</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilopascal Quadratmeter pro Gramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>34</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilopascal pro Millimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>35</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Quadratzentimeter Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>37</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Unze pro Quadratfuß</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>38</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Unze pro Quadratfuß pro 0,01 Zoll</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>40</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>41</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>56</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Sitas</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>57</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Masche (Mesh)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>58</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Netto-Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>59</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Teile pro Million (ppm)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>60</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gewichtsprozent</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>61</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Teile pro Milliarde (US)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>74</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millipascal</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>77</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milli-Zoll</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>80</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pfund pro Quadratzoll absolut</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>81</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Henry</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>85</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Fuß-Pfundkraft</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>87</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pfund pro Kubikfuß</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>89</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Poise</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>91</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Stokes</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>1I</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Festsatz</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2A</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Radiant pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2B</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Radiant pro Quadratsekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2C</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Röntgen</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2G</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Volt AC</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2H</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Volt DC</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2I</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Britische Thermaleinheit (internationale Tabelle) pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2J</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2K</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikfuß pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2L</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikfuß pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2M</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zentimeter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2N</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dezibel</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2P</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilobyte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2Q</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilobecquerel</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2R</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilocurie</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2U</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megagramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2X</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Meter pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2Y</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliröntgen</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>2Z</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millivolt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>3B</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megajoule</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>3C</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mannmonat</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4C</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Centistokes</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4G</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikroliter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4H</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrometer (Mikron)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4K</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliampere</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4L</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megabyte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4M</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4N</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megabecquerel</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4O</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrofarad</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4P</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newton pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4Q</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Unze Zoll</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4R</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Unze Fuß</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4T</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Picofarad</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4U</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pfund pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4W</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tonne (US) pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>4X</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kiloliter pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>5A</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Barrel (US) pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>5B</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Charge (Batch)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>5E</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>MMSCF/Tag</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>5J</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hydraulische Pferdestärke</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A10</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ampere Quadratmeter pro Joule Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A11</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Angström</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A12</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Astronomische Einheit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A13</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Attojoule</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A14</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Barn</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A15</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Barn pro Elektronenvolt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A16</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Barn pro Steradiant Elektronenvolt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A17</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Barn pro Steradiant</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A18</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Becquerel pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A19</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Becquerel pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A2</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ampere pro Zentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A20</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Britische Thermaleinheit pro Sekunde Quadratfuß Grad Rankine</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A21</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Britische Thermaleinheit pro Pfund Grad Rankine</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A22</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Britische Thermaleinheit pro Sekunde Fuß Grad Rankine</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A23</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Britische Thermaleinheit pro Stunde Quadratfuß Grad Rankine</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A24</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Candela pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A26</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Coulombmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A27</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Coulomb Quadratmeter pro Volt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A28</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Coulomb pro Kubikzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A29</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Coulomb pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A3</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ampere pro Millimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A30</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Coulomb pro Kubikmillimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A31</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Coulomb pro Kilogramm Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A32</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Coulomb pro Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A33</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Coulomb pro Quadratzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A34</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Coulomb pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A35</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Coulomb pro Quadratmillimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A36</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A37</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikdezimeter pro Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A38</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Coulomb</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A39</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A4</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ampere pro Quadratzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A40</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A41</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ampere pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A42</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Curie pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A43</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tragfähigkeit (Tonnage)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A44</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dekaliter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A45</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dekameter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A47</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dezitex</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A48</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Grad Rankine</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A49</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Denier</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A5</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ampere Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A53</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Elektronenvolt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A54</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Elektronenvolt pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A55</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Elektronenvolt Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A56</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Elektronenvolt Quadratmeter pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A59</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>8-teilige Wolkendecke</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A6</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ampere pro Quadratmeter Kelvin im Quadrat</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A68</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Exajoule</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A69</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Farad pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A7</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ampere pro Quadratmillimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A70</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Femtojoule</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A71</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Femtometer</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A73</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Fuß pro Quadratsekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A74</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Fuß Pfundkraft pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A75</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Frachttonne</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A76</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gal</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A8</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Amperesekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A84</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gigacoulomb pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A85</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gigaelektronenvolt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A86</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gigahertz</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A87</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gigaohm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A88</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gigaohm-Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A89</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gigapascal</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A9</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Rate</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A90</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gigawatt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A91</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gon</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A93</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A94</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A95</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gray</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A96</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gray pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A97</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hectopascal</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A98</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Henry pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>A99</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Bit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AA</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ballen</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AB</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Großverpackung</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ACR</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Acker (Acre)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ACT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Aktivität</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AD</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Byte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AE</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ampere pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AH</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zusatzminute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AI</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Durchschnittliche Minuten pro Anruf</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AK</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Faden (Fathom)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AL</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zugangsleitung</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AMH</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Amperestunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AMP</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ampere</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ANN</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Jahr</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>APZ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Feinunze (Troy Ounce)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AQ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Anti-Hämophiler Faktor (AHF) Einheit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AS</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Sortiment</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ASM</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Alkoholgehalt nach Masse</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ASU</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Alkoholgehalt nach Volumen</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ATM</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Standardatmosphäre</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AWG</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>American Wire Gauge</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AY</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Baugruppe</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>AZ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Britische Thermaleinheit (IT) pro Pfund</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B1</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Barrel (US) pro Tag</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B10</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Bit pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B11</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Joule pro Kilogramm Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B12</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Joule pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B13</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Joule pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B14</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Joule pro Meter hoch vier</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B15</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Joule pro Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B16</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Joule pro Mol Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B17</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kredit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B18</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Joulesekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B19</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ziffer (Digit)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B20</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Joule Quadratmeter pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B21</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kelvin pro Watt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B22</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kiloampere</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B23</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kiloampere pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B24</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kiloampere pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B25</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilobecquerel pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B26</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilocoulomb</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B27</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilocoulomb pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B28</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilocoulomb pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B29</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kiloelektronenvolt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B3</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Watte-Pfund</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B30</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gibibit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B31</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogrammmeter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B32</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B33</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm Quadratmeter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B34</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Kubikdezimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B35</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Liter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B4</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Barrel, imperial</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B41</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilojoule pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B42</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilojoule pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B43</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilojoule pro Kilogramm Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B44</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilojoule pro Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B45</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilomol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B46</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilomol pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B47</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilonewton</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B48</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilonewtonmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B49</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kiloohm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B50</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kiloohm-Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B52</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilosekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B53</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilosiemens</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B54</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilosiemens pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B55</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilovolt pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B56</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kiloweber pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B57</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Lichtjahr</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B58</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter pro Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B59</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Lumenstunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B60</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Lumen pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B61</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Lumen pro Watt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B62</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Lumensekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B63</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Luxstunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B64</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Luxsekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B66</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megaampere pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B67</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megabecquerel pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B68</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gigabit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B69</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megacoulomb pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B7</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zyklus</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B70</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megacoulomb pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B71</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megaelektronenvolt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B72</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megagramm pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B73</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Meganewton</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B74</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Meganewtonmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B75</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megaohm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B76</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megaohm-Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B77</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megasiemens pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B78</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megavolt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B79</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megavolt pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B8</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Joule pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B80</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gigabit pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B81</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziproker Quadratmeter reziproke Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B82</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zoll pro linearem Fuß</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B83</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Meter hoch vier</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B84</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikroampere</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B85</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrobar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B86</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrocoulomb</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B87</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrocoulomb pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B88</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrocoulomb pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B89</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrofarad pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B90</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrohenry</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B91</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrohenry pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B92</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikronewton</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B93</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikronewtonmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B94</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikroohm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B95</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikroohm-Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B96</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikropascal</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B97</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikroradiant</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B98</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrosekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>B99</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrosiemens</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>BAR</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Bar [Druckeinheit]</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>BB</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Base Box</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>BFT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Board Foot</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>BHP</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Brems-Pferdestärke</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>BIL</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliarde (EUR)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>BLD</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Trockenbarrel (US)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>BLL</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Barrel (US)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>BP</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hundert Board Feet</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>BPM</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Schläge pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>BQL</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Becquerel</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>BTU</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Britische Thermaleinheit (IT)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>BUA</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Bushel (US)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>BUI</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Bushel (UK)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C0</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Anruf</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C10</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millifarad</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C11</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligal</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C12</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C13</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligray</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C14</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millihenry</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C15</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millijoule</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C16</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millimeter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C17</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratmillimeter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C18</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millimol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C19</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mol pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C20</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millinewton</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C21</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kibibit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C22</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millinewton pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C23</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliohm-Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C24</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millipascalsekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C25</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliradiant</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C26</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millisekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C27</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millisiemens</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C28</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millisievert</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C29</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millitesla</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C3</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrovolt pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C30</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millivolt pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C31</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliwatt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C32</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliwatt pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C33</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliweber</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C34</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C35</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mol pro Kubikdezimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C36</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mol pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C37</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilobit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C38</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mol pro Liter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C39</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nanoampere</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C40</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nanocoulomb</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C41</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nanofarad</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C42</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nanofarad pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C43</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nanohenry</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C44</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nanohenry pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C45</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nanometer</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C46</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nanoohm-Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C47</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nanosekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C48</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nanotesla</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C49</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nanowatt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C50</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Neper</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C51</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Neper pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C52</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Picometer</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C53</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newtonmetersekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C54</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newtonmeter kwadraat pro Kilogramm kwadraat</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C55</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newton pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C56</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newton pro Quadratmillimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C57</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newtonsekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C58</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newtonsekunde pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C59</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Oktave</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C60</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ohmzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C61</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ohmmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C62</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Eins (Stück)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C63</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Parsec</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C64</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pascal pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C65</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pascalsekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C66</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pascalsekunde pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C67</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pascalsekunde pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C68</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Petajoule</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C69</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Phon</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C7</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Centipoise</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C70</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Picoampere</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C71</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Picocoulomb</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C72</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Picofarad pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C73</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Picohenry</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C74</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilobit pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C75</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Picowatt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C76</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Picowatt pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C78</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pfundkraft</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C79</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilovoltampere-Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C8</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millicoulomb pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C80</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Rad</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C81</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Radiant</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C82</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Radiant Quadratmeter pro Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C83</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Radiant Quadratmeter pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C84</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Radiant pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C85</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziprokes Angström</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C86</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziproker Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C87</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziproker Kubikmeter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C88</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziprokes Elektronenvolt pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C89</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziprokes Henry</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C9</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Spulengruppe</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C90</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziprokes Joule pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C91</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziprokes Kelvin oder Kelvin hoch minus eins</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C92</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziproker Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C93</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziproker Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C94</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziproke Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C95</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziprokes Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C96</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziprokes Pascal oder Pascal hoch minus eins</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C97</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziproke Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>C99</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziproke Sekunde pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CCT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tragfähigkeit in metrischen Tonnen</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CDL</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Candela</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CEL</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Grad Celsius</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CEN</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hundert</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CG</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Karte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CGM</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zentigramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CKG</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Coulomb pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CLF</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hundert Blätter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CLT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zentiliter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CMK</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CMQ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CMT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CNP</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hundert Packungen</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CNT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Cental (UK)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>COU</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Coulomb</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CTG</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gehaltsgramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CTM</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Metrisches Karat</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CTN</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gehaltstonne (metrisch)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CUR</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Curie</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CWA</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hundert Pfund (cwt) / Hundredweight (US)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>CWI</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hundredweight (UK)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D03</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilowattstunde pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D04</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Lot [Gewichtseinheit]</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D1</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziproke Sekunde pro Steradiant</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D10</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Siemens pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D11</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mebibit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D12</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Siemens Quadratmeter pro Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D13</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Sievert</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D15</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Sone</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D16</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratzentimeter pro Erg</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D17</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratzentimeter pro Steradiant Erg</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D18</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Meterkelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D19</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratmeter Kelvin pro Watt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D2</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziproke Sekunde pro Steradiant Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D20</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratmeter pro Joule</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D21</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratmeter pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D22</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratmeter pro Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D23</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pen Gramm (Protein)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D24</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratmeter pro Steradiant</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D25</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratmeter pro Steradiant Joule</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D26</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratmeter pro Voltsekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D27</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Steradiant</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D29</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Terahertz</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D30</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Terajoule</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D31</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Terawatt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D32</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Terawattstunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D33</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tesla</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D34</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tex</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D36</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megabit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D41</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tonne pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D42</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tropisches Jahr</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D43</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Vereinheitlichte atomare Masseneinheit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D44</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Var</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D45</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Volt im Quadrat pro Kelvin im Quadrat</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D46</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Volt-Ampere</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D47</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Volt pro Zentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D48</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Volt pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D49</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millivolt pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D5</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Quadratzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D50</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Volt pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D51</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Volt pro Millimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D52</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Watt pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D53</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Watt pro Meter Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D54</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Watt pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D55</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Watt pro Quadratmeter Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D56</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Watt pro Quadratmeter Kelvin hoch vier</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D57</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Watt pro Steradiant</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D58</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Watt pro Steradiant Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D59</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Weber pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D6</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Röntgen pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D60</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Weber pro Millimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D61</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Minute [Winkeleinheit]</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D62</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Sekunde [Winkeleinheit]</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D63</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Buch</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D65</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Runde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D68</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Anzahl der Wörter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D69</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zoll hoch vier</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D73</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Joule Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D74</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Mol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D77</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megacoulomb</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D78</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megajoule pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D80</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrowatt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D81</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrotesla</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D82</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrovolt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D83</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millinewtonmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D85</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrowatt pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D86</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millicoulomb</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D87</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millimol pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D88</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millicoulomb pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D89</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millicoulomb pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D91</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Rem</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D93</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Sekunde pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D94</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Sekunde pro Kubikmeter Radiant</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>D95</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Joule pro Gramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DAA</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ar (Dekar)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DAD</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zehn Tage</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DAY</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tag</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DB</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Trockenpfund</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DD</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Grad [Winkeleinheit]</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DEC</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dekade</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DG</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dezigramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DJ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dekagramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DLT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Deziliter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DMA</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikdekameter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DMK</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratdezimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DMO</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Standard-Kiloliter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DMQ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikdezimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DMT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dezimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DN</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dezinewtonmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DPC</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dutzend Stück</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DPR</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dutzend Paar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DPT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Verdrängungstonnage</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DRA</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Drachme (US)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DRI</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Drachme (UK)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DRL</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dutzend Rollen</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Trockentonne</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DTN</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dezitonne</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DWT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pennyweight</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DZN</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dutzend</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>DZP</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dutzend Packungen</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E01</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newton pro Quadratzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E07</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megawattstunde pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E08</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megawatt pro Hertz</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E09</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliampere-Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E10</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gradtag</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E12</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mille</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E14</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilokalorie (internationale Tabelle)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E15</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilokalorie (thermochimisch) pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E16</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millionen Btu(IT) pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E17</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikfuß pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E18</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tonne pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E19</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ping</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E20</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megabit pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E21</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Aktien</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E22</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>TEU</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E23</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reifen</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E25</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Aktive Einheit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E27</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dosis</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E28</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Lufttrockene Tonne</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E30</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Strang</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E31</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratmeter pro Liter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E32</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E33</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Fuß pro Tausend</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E34</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gigabyte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E35</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Terabyte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E36</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Petabyte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E37</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pixel</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E38</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megapixel</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E39</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Punkte pro Zoll (dpi)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E4</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Brutto-Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E40</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Teil pro Einhunderttausend</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E41</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm-Kraft pro Quadratmillimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E42</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm-Kraft pro Quadratzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E43</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Joule pro Quadratzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E44</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm-Kraft Meter pro Quadratzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E45</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliohm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E46</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilowattstunde pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E47</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilowattstunde pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E48</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Serviceeinheit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E49</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Arbeitstag</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E50</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Rechnungseinheit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E51</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Job</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E52</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Laufender Fuß</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E53</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Test</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E54</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Fahrt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E55</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nutzung</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E56</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Brunnen (Well)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E57</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zone</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E58</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Exabit pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E59</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Exbibyte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E60</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pebibyte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E61</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tebibyte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E62</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gibibyte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E63</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mebibyte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E64</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kibibyte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E65</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Exbibit pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E66</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Exbibit pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E67</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Exbibit pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E68</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gigabyte pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E69</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gibibit pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E70</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gibibit pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E71</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gibibit pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E72</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kibibit pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E73</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kibibit pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E74</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kibibit pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E75</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mebibit pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E76</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mebibit pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E77</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mebibit pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E78</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Petabit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E79</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Petabit pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E80</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pebibit pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E81</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pebibit pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E82</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pebibit pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E83</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Terabit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E84</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Terabit pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E85</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tebibit pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E86</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tebibit pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E87</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tebibit pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E88</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Bit pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E89</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Bit pro Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E90</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziproker Zentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E91</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziproker Tag</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E92</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikdezimeter pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E93</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E94</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilomol pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E95</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mol pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E96</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Grad pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E97</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millimeter pro Grad Celsius Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E98</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Grad Celsius pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>E99</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hectopascal pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>EA</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Stück (Each)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>EB</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Elektronisches Postfach</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>EQ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Äquivalente Gallone</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F01</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Bit pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F02</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kelvin pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F03</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilopascal pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F04</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millibar pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F05</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megapascal pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F06</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Poise pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F07</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pascal pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F08</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliampere pro Zoll</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F10</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kelvin pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F11</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kelvin pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F12</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kelvin pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F13</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Slug</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F14</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F15</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F16</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F17</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pfundkraft pro Fuß</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F18</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm Quadratzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F19</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm Quadratmillimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F20</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pfund Zoll im Quadrat</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F21</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pfundkraft Zoll</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F22</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pfundkraft Fuß pro Ampere</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F23</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Kubikdezimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F24</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Kilomol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F25</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Hertz</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F26</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Tag</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F27</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F28</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F29</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F30</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Tag</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F31</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F32</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Tag</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F33</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F34</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F35</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Tag Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F36</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Stunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F37</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Minute Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F38</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Sekunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F39</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Tag Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F40</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Stunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F41</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Minute Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F42</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Sekunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F43</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Tag Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F44</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Stunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F45</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Minute Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F46</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Sekunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F47</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newton pro Millimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F48</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pfundkraft pro Zoll</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F49</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Rod [Längeneinheit]</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F50</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrometer pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F51</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zentimeter pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F52</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Meter pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F53</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millimeter pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F54</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliohm pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F55</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ohm pro Meile (Statute Mile)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F56</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ohm pro Kilometer</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F57</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliampere pro Pfundkraft pro Quadratzoll</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F58</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Reziprokes Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F59</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliampere pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F60</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Grad Celsius pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F61</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kelvin pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F62</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Tag Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F63</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Stunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F64</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Minute Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F65</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Sekunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F66</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Tag Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F67</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Stunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F68</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Minute Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F69</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Sekunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F70</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Tag Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F71</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Stunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F72</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Minute Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F73</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Sekunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F74</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F75</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F76</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliampere pro Millimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F77</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pascalsekunde pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F78</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zoll Wasser</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F79</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zoll Quecksilber</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F80</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Wasser-Pferdestärke</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F81</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Bar pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F82</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hectopascal pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F83</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilopascal pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F84</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millibar pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F85</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megapascal pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F86</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Poise pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F87</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Volt pro Liter Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F88</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newtonzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F89</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newtonmeter pro Grad</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F90</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newtonmeter pro Ampere</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F91</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Bar Liter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F92</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Bar Kubikmeter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F93</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hectopascal Liter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F94</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hectopascal Kubikmeter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F95</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millibar Liter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F96</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millibar Kubikmeter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F97</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megapascal Liter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F98</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megapascal Kubikmeter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>F99</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pascal Liter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FAH</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Grad Fahrenheit</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FAR</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Farad</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FBM</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Fasermeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FC</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tausend Kubikfuß</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FF</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hundert Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FH</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikromol</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FIT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Fehlerrate (Failures in time)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FL</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Flockentonne (Flake Ton)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FOT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Fuß</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FP</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pfund pro Quadratfuß</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FR</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Fuß pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FS</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Fuß pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FTK</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratfuß</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>FTQ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikfuß</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G01</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pascal Kubikmeter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G04</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zentimeter pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G05</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Meter pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G06</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millimeter pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G08</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratzoll pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G09</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratmeter pro Sekunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G10</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Stokes pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G11</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Kubikzentimeter Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G12</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Kubikdezimeter Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G13</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Liter Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G14</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Kubikmeter Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G15</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Milliliter Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G16</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Kubikzentimeter Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G17</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Liter Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G18</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Kubikmeter Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G19</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newtonmeter pro Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G2</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>US-Gallone pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G20</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Fuß-Pfundkraft pro Pfund</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G21</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tasse [Volumeneinheit]</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G23</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Peck</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G24</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Esslöffel (US)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G25</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Teelöffel (US)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G26</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Steres</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G27</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G28</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G29</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G3</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Imperial-Gallone pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G30</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G31</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Kubikzentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G32</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Unze (avoirdupois) pro Kubikyard</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G33</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Kubikzentimeter Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G34</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Kubikdezimeter Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G35</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Liter Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G36</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Kubikmeter Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G37</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gramm pro Milliliter Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G38</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Kubikzentimeter Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G39</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Liter Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G40</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Kubikmeter Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G41</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratmeter pro Sekunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G42</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrosiemens pro Zentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G43</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrosiemens pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G44</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nanosiemens pro Zentimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G45</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Nanosiemens pro Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G46</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Stokes pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G47</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Tag</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G48</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G49</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G50</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gallone (US) pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G51</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G52</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Tag</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G53</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G54</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Tag</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G55</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G56</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzoll pro Stunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G57</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzoll pro Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G58</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzoll pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G59</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliampere pro Liter Minute</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G60</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Volt pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G61</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Tag Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G62</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Stunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G63</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Minute Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G64</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Sekunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G65</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter pro Tag Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G66</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter pro Stunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G67</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter pro Minute Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G68</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter pro Sekunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G69</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Tag Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G70</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Stunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G71</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Minute Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G72</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Sekunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G73</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Tag Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G74</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Stunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G75</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Minute Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G76</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Sekunde Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G77</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millimeter hoch vier</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G78</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Tag Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G79</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Stunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G80</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Minute Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G81</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Sekunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G82</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter pro Tag Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G83</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter pro Stunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G84</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter pro Minute Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G85</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter pro Sekunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G86</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Tag Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G87</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Stunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G88</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Minute Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G89</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Sekunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G90</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Tag Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G91</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Stunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G92</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Minute Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G93</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Sekunde Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G94</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikzentimeter pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G95</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G96</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G97</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter pro Bar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G98</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrohenry pro Kiloohm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>G99</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Mikrohenry pro Ohm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>JNT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Rohrverbindung (Joint)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>JOU</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Joule</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>JPS</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Hundert Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>JWL</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Anzahl der Steine (Juwelen)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>K1</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilowatt-Bedarf</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>K2</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilovoltampere-Blindbedarf</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>K3</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilovoltampere-Blindstunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>K6</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kiloliter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KEL</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kelvin</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KGM</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KHZ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilohertz</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KJO</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilojoule</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KMK</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratkilometer</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KMQ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilogramm pro Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KMT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilometer</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KPA</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilopascal</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KTN</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilotonne</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KVA</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilovolt-Ampere</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KVR</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilovar</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KVT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilovolt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KWH</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilowattstunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>KWT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kilowatt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>LBR</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pfund</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>LNM</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Seemeile</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>LTR</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Liter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>LUM</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Lumen</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>LUX</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Lux</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>MGM</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milligramm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>MIO</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Million</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>MLT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Milliliter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>MMK</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratmillimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>MMQ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmillimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>MMT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Millimeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>MON</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Monat</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>MTK</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quadratmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>MTQ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Kubikmeter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>MTR</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Meter</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>MTS</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Meter pro Sekunde</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>MWH</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Megawattstunde (1000 kW.h)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>NAR</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Anzahl der Artikel</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>NCL</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Anzahl der Zellen</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>NEW</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Newton</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>OHM</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Ohm</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ONZ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Unze (Ounce)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>PAL</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pascal</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>PCE</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Stück</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>PND</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Pfund</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>QTI</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quart (UK)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>QTL</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Dezimal-Doppelzentner</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>QTQ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Quart (US)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>SMI</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Meile (Statute Mile)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>STN</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tonne (US) oder Short Ton (UK/US)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>TNE</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Tonne (metrisch)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>VLT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Volt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>WTT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Watt</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>YRD</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Yard</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ZS</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zwischenbehälter für loses Schüttgut (IBC), Holz-Verbund</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ZT</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zwischenbehälter für loses Schüttgut (IBC), Faserplatte</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ZU</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zwischenbehälter für loses Schüttgut (IBC), flexibel</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ZV</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zwischenbehälter für loses Schüttgut (IBC), Metall (außer Stahl)</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ZW</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zwischenbehälter für loses Schüttgut (IBC), Naturholz</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ZX</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zwischenbehälter für loses Schüttgut (IBC), Sperrholz</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ZY</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Zwischenbehälter für loses Schüttgut (IBC), Kunstholz</SimpleValue></Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code"><SimpleValue>ZZ</SimpleValue></Value>
+			<Value ColumnRef="name"><SimpleValue>Gegenseitig vereinbart</SimpleValue></Value>
+		</Row>
+	</SimpleCodeList>
+</CodeList>

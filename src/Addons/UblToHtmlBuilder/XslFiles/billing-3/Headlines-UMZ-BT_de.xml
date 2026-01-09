@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SemanticModel>
+    <BusinessTerm id="UMZ-BT-001">
+        <TermName>Fax</TermName>
+        <DisplayName>Fax</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-002">
+        <TermName>Datum des Abrechnungszeitraums</TermName>
+        <DisplayName>Abrechnungsdatum</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-003">
+        <TermName>Handelskonto</TermName>
+        <DisplayName>Handelskonto</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-004">
+        <TermName></TermName>
+        <DisplayName></DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-005">
+        <TermName>Beschreibung</TermName>
+        <DisplayName>Beschreibung</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-006">
+        <TermName>Betrag inkl. MwSt.</TermName>
+        <DisplayName>Betrag inkl. MwSt.</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-007">
+        <TermName>Rechnungswährung</TermName>
+        <DisplayName>Währung</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-008">
+        <TermName>Zusätzliche Informationen</TermName>
+        <DisplayName>Mehr Infos</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-009">
+        <TermName>Zusätzliche Käuferinformationen</TermName>
+        <DisplayName>Zusatzinfos Käufer</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-010">
+        <TermName>Kontotyp</TermName>
+        <DisplayName>Kontotyp</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-011">
+        <TermName>Abrechnungszeitraum</TermName>
+        <DisplayName>Zeitraum</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-020">
+        <TermName>Name und Anschrift</TermName>
+        <DisplayName>Firmenname und Anschrift</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-012">
+        <TermName>Gutschrift für</TermName>
+        <DisplayName>Gutschrift</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-013">
+        <TermName>Buchungsinformationen</TermName>
+        <DisplayName>Buchungsinfos</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-014">
+        <TermName>Währung der Gutschrift</TermName>
+        <DisplayName>Währung Gutschrift</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-015">
+        <TermName>Ausstellungsdatum der Gutschrift</TermName>
+        <DisplayName>Gutschriftsdatum</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-016">
+        <TermName>Adress-ID</TermName>
+        <DisplayName>Adress-ID</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-017">
+        <TermName>Kundennummer</TermName>
+        <DisplayName>Kundennr.</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-018">
+        <TermName>Referenz auf gutgeschriebene Rechnung</TermName>
+        <DisplayName>Ref. Ursprungsrechnung</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-019">
+        <TermName>Nr.</TermName>
+        <DisplayName>Nr.</DisplayName>
+    </BusinessTerm>
+</SemanticModel>

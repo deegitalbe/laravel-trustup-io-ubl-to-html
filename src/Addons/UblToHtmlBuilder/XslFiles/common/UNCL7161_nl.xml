@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+    <Identification>
+        <ShortName>UNCL7161</ShortName>
+        <Version></Version>
+        <CanonicalUri></CanonicalUri>
+        <CanonicalVersionUri></CanonicalVersionUri>
+    </Identification>
+    <ColumnSet>
+        <Column Id="code" Use="required">
+            <ShortName>Code</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Column Id="name" Use="optional">
+            <ShortName>Name</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Key Id="codeKey">
+            <ShortName>CodeKey</ShortName>
+            <ColumnRef Ref="code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Reclame</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AAA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Telecommunicatie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AAC</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Technische wijziging</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AAD</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Productie op bestelling</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AAE</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Verschotten</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AAF</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Buiten het bedrijfsterrein</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AAH</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Extra verwerking</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AAI</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Attestering</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AAS</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Aanvaarding</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AAT</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Spoedlevering</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AAV</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Speciale constructie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AAY</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Luchthavenfaciliteiten</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AAZ</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Concessie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ABA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Verplichte opslag</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ABB</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Verwijdering van brandstof</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ABC</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Vliegtuigbediening (Into plane)</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ABD</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Overuren</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ABF</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Gereedschapskosten</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ABK</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Diversen</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ABL</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Extra verpakking</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ABN</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Stuwage (Dunnage)</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ABR</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Containerisatie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ABS</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Kartonnen verpakking</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ABT</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>In jute gewikkeld</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ABU</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Polyethyleen wikkelverpakking</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ACF</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Diverse behandelingen</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ACG</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Emaillering</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ACH</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Hittebehandeling</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ACI</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Oppervlaktebehandeling (Plating)</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ACJ</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Schilderwerk</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ACK</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Polijsten</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ACL</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Grondlaag aanbrengen</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ACM</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Conserveringsbehandeling</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ACS</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Montage</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADC</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Consolidatie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADE</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Cognossement</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADJ</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Airbag</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADK</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Overdracht</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADL</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Slipsheet</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADM</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Inbinden</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADN</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Reparatie of vervanging van kapotte retourverpakking</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADO</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Efficiënte logistiek</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADP</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Merchandising</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADQ</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Productmix</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADR</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Andere diensten</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADT</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Ophaling</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADW</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Chronische ziekte</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADY</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Introductie van nieuw product</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ADZ</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Rechtstreekse levering</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Omleiding</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEB</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Uitschakeling</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEC</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Distributie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AED</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Behandeling van gevaarlijke lading</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEF</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Huur en leasing</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEH</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Locatiedifferentieel</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEI</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Bijtanken van vliegtuigen</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEJ</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Brandstof verzonden naar opslag</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEK</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Rembours (Cash on delivery)</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEL</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Verwerkingsservice voor kleine bestellingen</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEM</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Administratieve diensten</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEN</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Garantie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEO</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Inzameling en recycling</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEP</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Inning van auteursrechten</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AES</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Veterinaire inspectiedienst</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AET</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Service voor gepensioneerden</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEU</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Houder van pas voor gratis medicijnen</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEV</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Milieubeschermingsdienst</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEW</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Milieusaneringsdienst</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEX</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Nationale chequeverwerking buiten rekeninggebied</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEY</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Nationale betalingsdienst buiten rekeninggebied</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AEZ</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Nationale betalingsdienst binnen rekeninggebied</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AJ</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Aanpassingen</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>AU</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Authenticatie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Catalogisering</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAB</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Vervoer per kar</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAD</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Certificering</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAE</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Certificaat van overeenstemming</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAF</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Certificaat van oorsprong</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAI</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Snijden</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAJ</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Consulaire dienst</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAK</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Ophaling door klant</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAL</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Loonbetalingsdienst</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAM</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Waardetransport</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAN</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Homebanking service</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAO</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Bilaterale overeenkomst service</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAP</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Verzekeringsmakelaardij</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAQ</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Aanmaak van cheques</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAR</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Preferentiële merchandisinglocatie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAS</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Kraan</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAT</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Speciale kleurendienst</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAU</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Sortering</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAV</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Inzameling en recycling van batterijen</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CAW</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Kosten voor terugname product</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CD</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Laden van wagen</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CG</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Reiniging</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CS</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Stempelen van sigaretten</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>CT</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Tellen en hertellen</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>DAB</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Lay-out/ontwerp</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>DAD</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Lossen door chauffeur</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>DL</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Levering</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>EG</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Graveren</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>EP</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Bespoediging (Expediting)</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ER</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Wisselkoersgarantie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>FAA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Fabricage</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>FAB</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Vrachtvergelijking (Freight equalization)</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>FAC</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Buitengewone vrachtbehandeling</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>FC</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Vrachtdienst</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>FH</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Vullen/behandeling</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>FI</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Financiering</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>GAA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Slijpen</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>HAA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Slang</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>HD</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Behandeling (Handling)</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>HH</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Hijsen en transport</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>IAA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Installatie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>IAB</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Installatie en garantie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ID</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Binnenlevering</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>IF</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Inspectie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>IR</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Installatie en opleiding</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>IS</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Facturatie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>KO</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Koosjer maken</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>L1</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Telling door vervoerder</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>LA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Etikettering</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>LAA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Arbeid</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>LAB</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Reparatie en retour</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>LF</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Legalisatie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>MAE</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Montage</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>MI</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Factuur per post</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ML</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Factuur per post naar elke locatie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>NAA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Niet-retourneerbare containers</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>OA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Externe kabelconnectoren</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>PA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Factuur bij zending</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>PAA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Fosfateren (staalbehandeling)</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>PC</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Verpakking</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>PL</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Palletiseren</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>RAB</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Herverpakking</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>RAC</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Reparatie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>RAD</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Retourneerbare container</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>RAF</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Herbevoorrading</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>RE</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Herlevering</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>RF</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Renovatie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>RH</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Huur van spoorwagon</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>RV</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Laden</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>SA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Berging (Salvaging)</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>SAA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Verzending en behandeling</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>SAD</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Speciale verpakking</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>SAE</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Stempelen</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>SAI</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Lossen door ontvanger</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>SG</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Krimpfolie</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>SH</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Speciale behandeling</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>SM</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Speciale afwerking</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>SU</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Instelling (Set-up)</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>TAB</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Huur van tank</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>TAC</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Testen</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>TT</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Transport - facturatie via derden</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>TV</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Transport door leverancier</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>V1</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Terreinstop (Drop yard)</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>V2</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Quai-aflevering (Drop dock)</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>WH</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Opslag</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>XAA</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Alle zendingen op dezelfde dag combineren</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>YY</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Gesplitste ophaling</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ZZZ</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Wederzijds overeengekomen</SimpleValue></Value>
+        </Row>
+    </SimpleCodeList>
+</CodeList>

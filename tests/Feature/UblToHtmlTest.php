@@ -28,8 +28,14 @@ class UblToHtmlTest extends TestCase
 
         // dd($ublContent);
 
-        $htmlContent = $service->generate($ublContent);
+        $htmlContent = $service->generate($ublContent, 'fr');
+        $base64Html = base64_encode($htmlContent);
 
+        // Création de l'URI Data
+        $dataUri = 'data:text/html;base64,'.$base64Html;
+
+        // Option A : Afficher un lien sur lequel cliquer
+        echo $dataUri;
         $dom = new \DOMDocument;
         libxml_use_internal_errors(true);
         $result = $dom->loadHTML($htmlContent);

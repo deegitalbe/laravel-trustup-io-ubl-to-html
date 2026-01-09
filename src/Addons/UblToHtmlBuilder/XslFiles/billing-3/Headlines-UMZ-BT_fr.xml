@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SemanticModel>
+    <BusinessTerm id="UMZ-BT-001">
+        <TermName>Fax</TermName>
+        <DisplayName>Fax</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-002">
+        <TermName>Date de la période de règlement</TermName>
+        <DisplayName>Date de règlement</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-003">
+        <TermName>Compte commercial</TermName>
+        <DisplayName>Compte commercial</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-004">
+        <TermName></TermName>
+        <DisplayName></DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-005">
+        <TermName>Description</TermName>
+        <DisplayName>Description</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-006">
+        <TermName>Montant TTC</TermName>
+        <DisplayName>Montant TTC</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-007">
+        <TermName>Devise de la facture</TermName>
+        <DisplayName>Devise</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-008">
+        <TermName>Informations complémentaires</TermName>
+        <DisplayName>Plus d'infos</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-009">
+        <TermName>Informations acheteur supplémentaires</TermName>
+        <DisplayName>Infos acheteur supp.</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-010">
+        <TermName>Type de compte</TermName>
+        <DisplayName>Type de compte</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-011">
+        <TermName>Période de facturation</TermName>
+        <DisplayName>Période</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-020">
+        <TermName>Nom légal et adresse</TermName>
+        <DisplayName>Raison sociale et adresse</DisplayName>
+    </BusinessTerm>
+
+    <BusinessTerm id="UMZ-BT-012">
+        <TermName>Crédité</TermName>
+        <DisplayName>Crédité</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-013">
+        <TermName>Informations de comptabilisation</TermName>
+        <DisplayName>Infos comptables</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-014">
+        <TermName>Devise de l'avoir</TermName>
+        <DisplayName>Devise de l'avoir</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-015">
+        <TermName>Date d'émission de l'avoir</TermName>
+        <DisplayName>Date de l'avoir</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-016">
+        <TermName>ID de l'adresse</TermName>
+        <DisplayName>ID Adresse</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-017">
+        <TermName>Numéro de client</TermName>
+        <DisplayName>N° client</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-018">
+        <TermName>Référence à la facture créditée</TermName>
+        <DisplayName>Réf. facture d'origine</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-019">
+        <TermName>N°</TermName>
+        <DisplayName>N°</DisplayName>
+    </BusinessTerm>
+</SemanticModel>

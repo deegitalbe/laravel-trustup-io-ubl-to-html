@@ -2,13 +2,19 @@
 
 namespace Deegitalbe\LaravelTrustupIoUblToHtml\Services;
 
+use Deegitalbe\LaravelTrustupIoUblToHtml\Enums\Locale;
 use DOMDocument;
 use XSLTProcessor;
 
 class UblToHtmlService
 {
-    public function generate(string $ublContent): string
+    public function generate(string $ublContent, string $locale): string
     {
+
+        // if (! Locale::tryFrom($locale)) {
+        //     abort(404, 'Locale introuvable.');
+        // }
+
         // Path to your XSL file (this *is* a file path)
         $xslPath = __DIR__.'/../Addons/UblToHtmlBuilder/XslFiles/render-billing-3.xsl';
 
@@ -36,6 +42,7 @@ class UblToHtmlService
         if (! $processor->importStylesheet($xslDoc)) {
             abort(500, 'Impossible d\'importer la feuille XSL.');
         }
+        $processor->setParameter('', 'languageCode', $locale);
 
         // 4. Transform to HTML
         $html = $processor->transformToXML($xmlDoc);

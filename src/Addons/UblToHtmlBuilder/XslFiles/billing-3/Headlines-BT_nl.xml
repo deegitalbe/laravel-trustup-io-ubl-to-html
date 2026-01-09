@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SemanticModel>
+	<BusinessTerm id="BT-1">
+		<TermName>Factuurnummer</TermName>
+		<Definition>Een unieke identificatie van de factuur.</Definition>
+		<DisplayName>Nr.</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-2">
+		<TermName>Factuurdatum</TermName>
+		<Definition>De datum waarop de factuur is opgesteld.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-3">
+		<TermName>Code factuurtype</TermName>
+		<DisplayName>Type factuur</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-5">
+		<TermName>Code factuurvaluta</TermName>
+		<DisplayName>Munteenheid</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-9">
+		<TermName>Vervaldatum</TermName>
+		<Definition>De uiterste datum waarop de betaling moet gebeuren.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-10">
+		<TermName>Referentie van de afnemer</TermName>
+		<DisplayName>Klantreferentie</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-13">
+		<TermName>Bestelbonreferentie</TermName>
+		<DisplayName>Bestelbon nr.</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-4">
+		<TermName>Leverancier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-27">
+		<TermName>Naam leverancier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-31">
+		<TermName>BTW-nummer leverancier</TermName>
+		<DisplayName>BTW-nr.</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-5">
+		<TermName>Adres leverancier</TermName>
+		<DisplayName>Adres</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-7">
+		<TermName>Klant</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-44">
+		<TermName>Naam klant</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-22">
+		<TermName>Totaalbedragen</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-106">
+		<TermName>Totaal exclusief BTW</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-109">
+		<TermName>Totaalbedrag netto</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-110">
+		<TermName>Totaal BTW-bedrag</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-112">
+		<TermName>Totaal inclusief BTW</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-115">
+		<TermName>Te betalen bedrag</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-25">
+		<TermName>Factuurlijn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-126">
+		<TermName>Lijnidentificatie</TermName>
+		<DisplayName>Lijn ID</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-129">
+		<TermName>Gefactureerde hoeveelheid</TermName>
+		<DisplayName>Aantal</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-131">
+		<TermName>Netto lijnbedrag</TermName>
+		<DisplayName>Bedrag</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-146">
+		<TermName>Eenheidsprijs</TermName>
+		<DisplayName>Eenh. prijs</DisplayName>
+	</BusinessTerm>
+</SemanticModel>

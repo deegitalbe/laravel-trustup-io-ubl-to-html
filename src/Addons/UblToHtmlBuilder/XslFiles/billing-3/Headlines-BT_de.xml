@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SemanticModel>
+	<BusinessTerm id="BT-1">
+		<TermName>Rechnungsnummer</TermName>
+		<Definition>Eine eindeutige Identifizierung der Rechnung.</Definition>
+		<Description>Die fortlaufende Nummer gemäß Artikel 226(2) der Richtlinie 2006/112/EG.</Description>
+		<DisplayName>Nr.</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-2">
+		<TermName>Rechnungsdatum</TermName>
+		<Definition>Das Datum, an dem die Rechnung ausgestellt wurde.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-3">
+		<TermName>Code des Rechnungstyps</TermName>
+		<Definition>Ein Code, der die funktionale Art der Rechnung angibt.</Definition>
+		<DisplayName>Rechnungstyp</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-5">
+		<TermName>Rechnungswährungscode</TermName>
+		<Definition>Die Währung, in der alle Rechnungsbeträge angegeben sind.</Definition>
+		<DisplayName>Währung</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-9">
+		<TermName>Fälligkeitsdatum der Zahlung</TermName>
+		<Definition>Das Datum, an dem die Zahlung fällig ist.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-10">
+		<TermName>Leitweg-ID / Käuferreferenz</TermName>
+		<Definition>Vom Käufer zugewiesene Kennung für interne Routingzwecke.</Definition>
+		<DisplayName>Käuferreferenz</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-13">
+		<TermName>Bestellnummer</TermName>
+		<Definition>Eine Kennung für eine referenzierte Bestellung des Käufers.</Definition>
+		<DisplayName>Bestellreferenz</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-4">
+		<TermName>Verkäufer</TermName>
+		<Definition>Informationen zum Verkäufer.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-27">
+		<TermName>Name des Verkäufers</TermName>
+		<DisplayName/>
+	</BusinessTerm>
+	<BusinessTerm id="BT-31">
+		<TermName>Umsatzsteuer-Identifikationsnummer des Verkäufers</TermName>
+		<DisplayName>USt-IdNr.</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-5">
+		<TermName>Anschrift des Verkäufers</TermName>
+		<DisplayName>Adresse</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-7">
+		<TermName>Käufer</TermName>
+		<Definition>Informationen zum Käufer.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-44">
+		<TermName>Name des Käufers</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-22">
+		<TermName>Rechnungssummen</TermName>
+		<Definition>Die monetären Summen der Rechnung.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-106">
+		<TermName>Summe der Nettobeträge der Rechnungszeilen</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-109">
+		<TermName>Rechnungsbetrag ohne Umsatzsteuer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-110">
+		<TermName>Gesamtbetrag der Umsatzsteuer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-112">
+		<TermName>Rechnungsbetrag mit Umsatzsteuer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-115">
+		<TermName>Fälliger Zahlungsbetrag</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-25">
+		<TermName>Rechnungszeile</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-126">
+		<TermName>Zeilenidentifikator</TermName>
+		<DisplayName>Zeilen-ID</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-129">
+		<TermName>Rechnungspostenmenge</TermName>
+		<DisplayName>Menge</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-131">
+		<TermName>Nettobetrag der Rechnungszeile</TermName>
+		<DisplayName>Betrag</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-146">
+		<TermName>Artikelnettopreis</TermName>
+		<DisplayName>Einzelpreis</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-153">
+		<TermName>Artikelname</TermName>
+		<DisplayName>Name</DisplayName>
+	</BusinessTerm>
+</SemanticModel>
