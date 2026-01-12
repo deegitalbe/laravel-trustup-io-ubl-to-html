@@ -18,7 +18,7 @@ class UblToHtmlTest extends TestCase
 {
     use InstallPackageTest, RefreshDatabase, TestSuite;
 
-    public function test_it_generates_html_from_ubl()
+    public function test_it_generates_html_from_ubl_for_fr()
     {
         $service = $this->app->make(UblToHtmlService::class);
 
@@ -29,6 +29,81 @@ class UblToHtmlTest extends TestCase
         // dd($ublContent);
 
         $htmlContent = $service->generate($ublContent, 'fr');
+        $base64Html = base64_encode($htmlContent);
+
+        // Création de l'URI Data
+        $dataUri = 'data:text/html;base64,'.$base64Html;
+
+        // Option A : Afficher un lien sur lequel cliquer
+        echo $dataUri;
+        $dom = new \DOMDocument;
+        libxml_use_internal_errors(true);
+        $result = $dom->loadHTML($htmlContent);
+        assertTrue($result);
+
+    }
+
+    public function test_it_generates_html_from_ubl_for_de()
+    {
+        $service = $this->app->make(UblToHtmlService::class);
+
+        assertInstanceOf(UblToHtmlService::class, $service);
+
+        $ublContent = file_get_contents(__DIR__.'/../Stubs/Xml/UBL-Invoice-2.1-Salameche.xml');
+
+        // dd($ublContent);
+
+        $htmlContent = $service->generate($ublContent, 'de');
+        $base64Html = base64_encode($htmlContent);
+
+        // Création de l'URI Data
+        $dataUri = 'data:text/html;base64,'.$base64Html;
+
+        // Option A : Afficher un lien sur lequel cliquer
+        echo $dataUri;
+        $dom = new \DOMDocument;
+        libxml_use_internal_errors(true);
+        $result = $dom->loadHTML($htmlContent);
+        assertTrue($result);
+
+    }
+
+    public function test_it_generates_html_from_ubl_for_nl()
+    {
+        $service = $this->app->make(UblToHtmlService::class);
+
+        assertInstanceOf(UblToHtmlService::class, $service);
+
+        $ublContent = file_get_contents(__DIR__.'/../Stubs/Xml/UBL-Invoice-2.1-Salameche.xml');
+
+        // dd($ublContent);
+
+        $htmlContent = $service->generate($ublContent, 'nl');
+        $base64Html = base64_encode($htmlContent);
+
+        // Création de l'URI Data
+        $dataUri = 'data:text/html;base64,'.$base64Html;
+
+        // Option A : Afficher un lien sur lequel cliquer
+        echo $dataUri;
+        $dom = new \DOMDocument;
+        libxml_use_internal_errors(true);
+        $result = $dom->loadHTML($htmlContent);
+        assertTrue($result);
+
+    }
+
+    public function test_it_generates_html_from_ubl_for_en()
+    {
+        $service = $this->app->make(UblToHtmlService::class);
+
+        assertInstanceOf(UblToHtmlService::class, $service);
+
+        $ublContent = file_get_contents(__DIR__.'/../Stubs/Xml/UBL-Invoice-2.1-Salameche.xml');
+
+        // dd($ublContent);
+
+        $htmlContent = $service->generate($ublContent, 'en');
         $base64Html = base64_encode($htmlContent);
 
         // Création de l'URI Data
