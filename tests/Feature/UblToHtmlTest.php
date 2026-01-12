@@ -36,7 +36,7 @@ class UblToHtmlTest extends TestCase
         $dataUri = 'data:text/html;base64,'.$base64Html;
 
         // Option A : Afficher un lien sur lequel cliquer
-        echo $dataUri;
+        echo base64_decode(explode(',', $dataUri)[1]);
         $dom = new \DOMDocument;
         libxml_use_internal_errors(true);
         $result = $dom->loadHTML($htmlContent);
@@ -61,7 +61,7 @@ class UblToHtmlTest extends TestCase
         $dataUri = 'data:text/html;base64,'.$base64Html;
 
         // Option A : Afficher un lien sur lequel cliquer
-        echo $dataUri;
+        echo base64_decode(explode(',', $dataUri)[1]);
         $dom = new \DOMDocument;
         libxml_use_internal_errors(true);
         $result = $dom->loadHTML($htmlContent);
@@ -86,7 +86,7 @@ class UblToHtmlTest extends TestCase
         $dataUri = 'data:text/html;base64,'.$base64Html;
 
         // Option A : Afficher un lien sur lequel cliquer
-        echo $dataUri;
+        echo base64_decode(explode(',', $dataUri)[1]);
         $dom = new \DOMDocument;
         libxml_use_internal_errors(true);
         $result = $dom->loadHTML($htmlContent);
@@ -111,7 +111,7 @@ class UblToHtmlTest extends TestCase
         $dataUri = 'data:text/html;base64,'.$base64Html;
 
         // Option A : Afficher un lien sur lequel cliquer
-        echo $dataUri;
+        echo base64_decode(explode(',', $dataUri)[1]);
         $dom = new \DOMDocument;
         libxml_use_internal_errors(true);
         $result = $dom->loadHTML($htmlContent);
