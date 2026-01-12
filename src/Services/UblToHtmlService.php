@@ -10,11 +10,13 @@ class UblToHtmlService
 {
     public function generate(string $ublContent, string $locale): string
     {
+        $localeEnum = Locale::tryFrom($locale);
+        if (! $localeEnum) {
+            abort(404, 'Locale introuvable.');
+        }
 
-        // if (! Locale::tryFrom($locale)) {
-        //     abort(404, 'Locale introuvable.');
-        // }
-
+        $value = $localeEnum->value;
+        $languageCode = explode('-', $value)[1];
         // Path to your XSL file (this *is* a file path)
         $xslPath = __DIR__.'/../Addons/UblToHtmlBuilder/XslFiles/render-billing-3.xsl';
 
@@ -42,7 +44,7 @@ class UblToHtmlService
         if (! $processor->importStylesheet($xslDoc)) {
             abort(500, 'Impossible d\'importer la feuille XSL.');
         }
-        $processor->setParameter('', 'languageCode', $locale);
+        $processor->setParameter('', 'languageCode', $languageCode);
 
         // 4. Transform to HTML
         $html = $processor->transformToXML($xmlDoc);

@@ -3,6 +3,7 @@
 namespace Deegitalbe\LaravelTrustupIoUblToHtml\Tests\Feature;
 
 use Deegitalbe\LaravelTrustupIoUblToHtml\Contracts\LaravelTrustupIoUblToHtmlContract;
+use Deegitalbe\LaravelTrustupIoUblToHtml\Enums\Locale;
 use Deegitalbe\LaravelTrustupIoUblToHtml\Facades\LaravelTrustupIoUblToHtmlFacade;
 use Deegitalbe\LaravelTrustupIoUblToHtml\LaravelTrustupIoUblToHtml;
 use Deegitalbe\LaravelTrustupIoUblToHtml\Services\UblToHtmlService;
@@ -28,7 +29,7 @@ class UblToHtmlTest extends TestCase
 
         // dd($ublContent);
 
-        $htmlContent = $service->generate($ublContent, 'fr');
+        $htmlContent = $service->generate($ublContent, Locale::BE_FR->value);
         $base64Html = base64_encode($htmlContent);
 
         // Création de l'URI Data
@@ -53,7 +54,7 @@ class UblToHtmlTest extends TestCase
 
         // dd($ublContent);
 
-        $htmlContent = $service->generate($ublContent, 'de');
+        $htmlContent = $service->generate($ublContent, Locale::BE_DE->value);
         $base64Html = base64_encode($htmlContent);
 
         // Création de l'URI Data
@@ -78,7 +79,7 @@ class UblToHtmlTest extends TestCase
 
         // dd($ublContent);
 
-        $htmlContent = $service->generate($ublContent, 'nl');
+        $htmlContent = $service->generate($ublContent, Locale::BE_NL->value);
         $base64Html = base64_encode($htmlContent);
 
         // Création de l'URI Data
@@ -103,7 +104,7 @@ class UblToHtmlTest extends TestCase
 
         // dd($ublContent);
 
-        $htmlContent = $service->generate($ublContent, 'en');
+        $htmlContent = $service->generate($ublContent, Locale::BE_EN->value);
         $base64Html = base64_encode($htmlContent);
 
         // Création de l'URI Data
