@@ -1,5 +1,11 @@
 # laravel-trustup-io-ubl-to-html
 
+## 0.1.2
+
+### Patch Changes
+
+- cadfaa4: Translating the ubl in french,dutch and german
+
 ## 0.1.1
 
 ### Patch Changes
