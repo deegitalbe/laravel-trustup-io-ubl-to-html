@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+    <Identification>
+        <ShortName>UNCL1001</ShortName>
+        <Version></Version>
+        <CanonicalUri></CanonicalUri>
+        <CanonicalVersionUri></CanonicalVersionUri>
+    </Identification>
+    <ColumnSet>
+        <Column Id="code" Use="required">
+            <ShortName>Code</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Column Id="name" Use="optional">
+            <ShortName>Name</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Key Id="codeKey">
+            <ShortName>CodeKey</ShortName>
+            <ColumnRef Ref="code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>80</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Debetnota voor goederen of diensten</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>82</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Factuur voor gemeten diensten</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>84</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Debetnota voor financiële aanpassingen</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>380</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Handelsfactuur</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>383</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Debetnota</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>386</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Voorschotfactuur</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>393</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Gefactoreerde factuur</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>395</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Waarborgfactuur</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>575</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Factuur van verzekeraar</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>623</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Factuur van expediteur</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>780</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Vrachtfactuur</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>81</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Creditnota voor goederen of diensten</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>83</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Creditnota voor financiële aanpassingen</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>381</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Creditnota</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>396</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Gefactoreerde creditnota</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>532</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Creditnota van expediteur</SimpleValue>
+            </Value>
+        </Row>
+    </SimpleCodeList>
+</CodeList>

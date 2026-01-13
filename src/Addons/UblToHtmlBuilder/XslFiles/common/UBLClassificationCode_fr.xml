@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+    <Identification>
+        <ShortName>InvoiceBaseType</ShortName>
+        <Version></Version>
+        <CanonicalUri></CanonicalUri>
+        <CanonicalVersionUri></CanonicalVersionUri>
+    </Identification>
+    <ColumnSet>
+        <Column Id="code" Use="required">
+            <ShortName>Code</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Column Id="name" Use="optional">
+            <ShortName>Name</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Key Id="codeKey">
+            <ShortName>CodeKey</ShortName>
+            <ColumnRef Ref="code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CC</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Code de classification sectorielle</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>EF</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Code article</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>GB</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Code interne groupe de produits acheteur</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>HS</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Système harmonisé / INTRASTAT</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>MP</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Numéro d'identification produit/service / UNSPSC</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>SSO</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Liste des marchandises dangereuses (ONU)</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>STI</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Vocabulaire commun pour les marchés publics (CPV)</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>STQ</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>eCl@ss</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>TSP</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Nomenclature combinée de l'UE</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ZZZ</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Défini d'un commun accord</SimpleValue>
+            </Value>
+        </Row>
+    </SimpleCodeList>
+</CodeList>

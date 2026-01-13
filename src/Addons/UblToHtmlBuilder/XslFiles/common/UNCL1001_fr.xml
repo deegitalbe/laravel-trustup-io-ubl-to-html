@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+    <Identification>
+        <ShortName>UNCL1001</ShortName>
+        <Version></Version>
+        <CanonicalUri></CanonicalUri>
+        <CanonicalVersionUri></CanonicalVersionUri>
+    </Identification>
+    <ColumnSet>
+        <Column Id="code" Use="required">
+            <ShortName>Code</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Column Id="name" Use="optional">
+            <ShortName>Name</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Key Id="codeKey">
+            <ShortName>CodeKey</ShortName>
+            <ColumnRef Ref="code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>80</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Note de débit relative aux biens ou services</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>82</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Facture de services mesurés</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>84</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Note de débit relative à des ajustements financiers</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>380</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Facture commerciale</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>383</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Note de débit</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>386</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Facture d'acompte</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>393</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Facture affacturée</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>395</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Facture de dépôt</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>575</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Facture d'assureur</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>623</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Facture de transitaire</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>780</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Facture de fret</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>81</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Note de crédit relative aux biens ou services</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>83</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Note de crédit relative à des ajustements financiers</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>381</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Avoir</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>396</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Avoir affacturé</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>532</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Avoir de transitaire</SimpleValue>
+            </Value>
+        </Row>
+    </SimpleCodeList>
+</CodeList>

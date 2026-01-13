@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+    <Identification>
+        <ShortName>UBLTaxCategoryCode</ShortName>
+        <Version></Version>
+        <CanonicalUri></CanonicalUri>
+        <CanonicalVersionUri></CanonicalVersionUri>
+    </Identification>
+    <ColumnSet>
+        <Column Id="code" Use="required">
+            <ShortName>Code</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Column Id="name" Use="optional">
+            <ShortName>Name</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Key Id="codeKey">
+            <ShortName>CodeKey</ShortName>
+            <ColumnRef Ref="code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>S</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Standaard tarief</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AE</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Btw verlegd (Reverse charge)</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>E</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Vrijgesteld van btw</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>G</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Uitvoer buiten de EU</SimpleValue>
+            </Value>
+        </Row>      
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>O</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Buiten de toepassingssfeer van de btw</SimpleValue>
+            </Value>
+        </Row>      
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>K</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Intracommunautaire levering</SimpleValue>
+            </Value>
+        </Row>      
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>Z</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Btw 0%</SimpleValue>
+            </Value>
+        </Row>      
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>L</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Algemene indirecte belasting van de Canarische Eilanden (IGIC)</SimpleValue>
+            </Value>
+        </Row>      
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>M</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Belasting op productie, diensten en invoer in Ceuta en Melilla (IPSI)</SimpleValue>
+            </Value>
+        </Row>
+    </SimpleCodeList>
+</CodeList>

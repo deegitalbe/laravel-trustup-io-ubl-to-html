@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SemanticModel>
+	<BusinessTerm id="BT-1">
+		<TermName>Numéro de facture</TermName>
+		<Definition>Une identification unique de la facture.</Definition>
+		<Description>Le numéro séquentiel requis par l'article 226(2) de la directive 2006/112/CE, pour identifier de manière unique la facture dans le contexte commercial, la période, les systèmes d'exploitation et les registres du vendeur. Il peut être basé sur une ou plusieurs séries de chiffres, pouvant inclure des caractères alphanumériques. Aucun schéma d'identification ne doit être utilisé.</Description>
+		<DisplayName>N°</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-2">
+		<TermName>Date d'émission</TermName>
+		<Definition>La date à laquelle la facture a été émise.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-3">
+		<TermName>Code du type de facture</TermName>
+		<Definition>Un code spécifiant le type fonctionnel de la facture.</Definition>
+		<Description>Les factures commerciales et les notes de crédit sont définies selon les entrées de l'UNTDID 1001. D'autres entrées de l'UNTDID 1001 avec des factures ou des notes de crédit spécifiques peuvent être utilisées si applicable.</Description>
+		<DisplayName>Type de facture</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-5">
+		<TermName>Code de devise de la facture</TermName>
+		<Definition>La devise dans laquelle tous les montants de la facture sont indiqués, à l'exception du montant total de la TVA dans la devise comptable.</Definition>
+		<Description>Une seule devise doit être utilisée dans la facture, à l'exception du montant total de la TVA en devise comptable (BT-111) conformément à l'article 230 de la directive 2006/112/CE. Les listes des devises valides sont enregistrées auprès de l'agence de maintenance ISO 4217.</Description>
+		<DisplayName>Devise de la facture</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-6">
+		<TermName>Code de devise comptable de la TVA</TermName>
+		<Definition>La devise utilisée à des fins de comptabilisation et de déclaration de la TVA, telle qu'acceptée ou requise dans le pays du vendeur.</Definition>
+		<Description>Doit être utilisé en combinaison avec le montant total de la TVA de la facture en devise comptable (BT-111) lorsque le code de devise comptable de la TVA diffère du code de devise de la facture.</Description>
+	</BusinessTerm>
+	<BusinessTerm id="BT-7">
+		<TermName>Date de référence fiscale</TermName>
+		<Definition>La date à laquelle la TVA devient exigible pour le vendeur et pour l'acheteur, dans la mesure où cette date peut être déterminée et diffère de la date d'émission de la facture.</Definition>
+		<Description>Le fait générateur est généralement la date à laquelle les biens ont été livrés ou les services achevés. Veuillez vous référer à l'article 226 (7) de la directive 2006/112/CE.</Description>
+	</BusinessTerm>
+	<BusinessTerm id="BT-8">
+		<TermName>Code de date du fait générateur de la TVA</TermName>
+		<Definition>Le code de la date à laquelle la TVA devient exigible pour le vendeur et pour l'acheteur.</Definition>
+		<Description>Le code doit distinguer les entrées de l'UNTDID 2005 (Date d'émission, Date de livraison, Date de paiement). Utilisé si la date exacte n'est pas connue à l'émission.</Description>
+	</BusinessTerm>
+	<BusinessTerm id="BT-9">
+		<TermName>Date d'échéance du paiement</TermName>
+		<Definition>La date à laquelle le paiement est dû.</Definition>
+		<Description>Reflète la date d'échéance du paiement net. Pour les paiements partiels, indique la première échéance nette.</Description>
+	</BusinessTerm>
+	<BusinessTerm id="BT-10">
+		<TermName>Référence de l'acheteur</TermName>
+		<Definition>Un identifiant attribué par l'acheteur utilisé à des fins d'acheminement interne.</Definition>
+		<DisplayName>Référence acheteur</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-11">
+		<TermName>Référence du projet</TermName>
+		<Definition>L'identification du projet auquel la facture se rapporte.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-12">
+		<TermName>Référence du contrat</TermName>
+		<Definition>L'identification d'un contrat.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-13">
+		<TermName>Référence du bon de commande</TermName>
+		<Definition>Un identifiant d'un bon de commande référencé, émis par l'acheteur.</Definition>
+		<DisplayName>Référence de commande</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-14">
+		<TermName>Référence de la commande client</TermName>
+		<Definition>Un identifiant d'une commande client référencée, émise par le vendeur.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-15">
+		<TermName>Référence du bon de réception</TermName>
+		<Definition>Un identifiant d'un bon de réception référencé.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-16">
+		<TermName>Référence du bon de livraison</TermName>
+		<Definition>Un identifiant d'un bon de livraison référencé (expédition).</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-17">
+		<TermName>Référence de l'appel d'offres ou du lot</TermName>
+		<Definition>L'identification de l'appel d'offres ou du lot auquel la facture se rapporte.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-18">
+		<TermName>Identifiant de l'objet facturé</TermName>
+		<Definition>Un identifiant pour un objet sur lequel la facture est basée, donné par le vendeur.</Definition>
+		<Description>Il peut s'agir d'un numéro d'abonnement, numéro de téléphone, point de comptage, véhicule, personne, etc.</Description>
+	</BusinessTerm>
+	<BusinessTerm id="BT-18-1">
+		<TermName>Identifiant du schéma</TermName>
+		<Definition>L'identifiant du schéma d'identification de l'identifiant de l'objet facturé.</Definition>
+		<DisplayName>Type d'objet</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-19">
+		<TermName>Référence comptable de l'acheteur</TermName>
+		<Definition>Une valeur textuelle qui spécifie où imputer les données pertinentes dans les comptes financiers de l'acheteur.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-20">
+		<TermName>Conditions de paiement</TermName>
+		<Definition>Une description textuelle des conditions de paiement qui s'appliquent au montant dû (y compris la description d'éventuelles pénalités).</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BG-1">
+		<TermName>NOTE DE FACTURE</TermName>
+		<Definition>Un groupe de termes métiers fournissant des notes textuelles pertinentes pour la facture, accompagnées d'une indication du sujet de la note.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-21">
+		<TermName>Code sujet de la note de facture</TermName>
+		<Definition>Le sujet de la note textuelle dans BT-22.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-22">
+		<TermName>Fax</TermName>
+		<Definition>Une note textuelle qui donne des informations non structurées pertinentes pour la facture dans son ensemble.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BG-2">
+		<TermName>CONTRÔLE DU PROCESSUS</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur le processus métier et les règles applicables au document de facture.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-23">
+		<TermName>Type de processus métier</TermName>
+		<Definition>Identifie le contexte du processus métier dans lequel la transaction apparaît.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-24">
+		<TermName>Identifiant de spécification</TermName>
+		<Definition>Une identification de la spécification contenant l'ensemble total des règles concernant le contenu sémantique et les règles métiers auxquelles le document est conforme.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BG-3">
+		<TermName>Référence de la facture précédente</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur une ou plusieurs factures précédentes.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-25">
+		<TermName>Référence de la facture précédente</TermName>
+		<Definition>L'identification d'une facture qui a été précédemment envoyée par le vendeur.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-26">
+		<TermName>Date d'émission de la facture précédente</TermName>
+		<Definition>La date à laquelle la facture précédente a été émise.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BG-4">
+		<TermName>Vendeur</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur le vendeur.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-27">
+		<TermName>Nom du vendeur</TermName>
+		<Definition>Le nom formel complet sous lequel le vendeur est enregistré au registre national des entités juridiques ou en tant qu'assujetti à la taxe.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-28">
+		<TermName>Nom commercial du vendeur</TermName>
+		<Definition>Un nom sous lequel le vendeur est connu, autre que le nom du vendeur.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-29">
+		<TermName>Identifiant du vendeur</TermName>
+		<Definition>Une identification du vendeur.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-30">
+		<TermName>Identifiant d'enregistrement légal du vendeur</TermName>
+		<Definition>Un identifiant délivré par un registraire officiel qui identifie le vendeur en tant qu'entité juridique ou personne.</Definition>
+		<DisplayName>Id</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-31">
+		<TermName>Identifiant TVA du vendeur</TermName>
+		<Definition>L'identifiant TVA du vendeur (également connu sous le numéro d'identification TVA du vendeur).</Definition>
+		<DisplayName>N° TVA</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-32">
+		<TermName>Identifiant d'enregistrement fiscal du vendeur</TermName>
+		<Definition>L'identification locale du vendeur à des fins fiscales ou une référence permettant au vendeur d'indiquer son statut fiscal enregistré.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-33">
+		<TermName>Informations complémentaires sur le vendeur</TermName>
+		<Definition>Informations légales complémentaires pertinentes pour le vendeur (ex: capital social).</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-34">
+		<TermName>Adresse électronique du vendeur</TermName>
+		<Definition>Identifie l'adresse électronique du vendeur à laquelle la réponse au niveau de l'application à la facture peut être délivrée.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BG-5">
+		<TermName>Adresse postale du vendeur</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur l'adresse du vendeur.</Definition>
+		<DisplayName>Adresse</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-35">
+		<TermName>Ligne d'adresse 1 du vendeur</TermName>
+		<Definition>La ligne d'adresse principale dans une adresse (rue et numéro).</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-37">
+		<TermName>Ville du vendeur</TermName>
+		<Definition>Le nom commun de la ville ou du village où se situe l'adresse du vendeur.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-38">
+		<TermName>Code postal du vendeur</TermName>
+		<Definition>L'identifiant d'un groupe d'adresses selon le service postal compétent.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-40">
+		<TermName>Code pays du vendeur</TermName>
+		<Definition>Un code qui identifie le pays.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BG-6">
+		<TermName>Contact du vendeur</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations de contact sur le vendeur.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-41">
+		<TermName>Point de contact du vendeur</TermName>
+		<Definition>Un point de contact pour une entité juridique ou une personne.</Definition>
+		<DisplayName>Point de contact</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-42">
+		<TermName>Numéro de téléphone du contact vendeur</TermName>
+		<Definition>Un numéro de téléphone pour le point de contact.</Definition>
+		<DisplayName>Téléphone</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-43">
+		<TermName>Adresse électronique du contact vendeur</TermName>
+		<Definition>Une adresse e-mail pour le point de contact.</Definition>
+		<DisplayName>E-mail</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-7">
+		<TermName>Acheteur</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur l'acheteur.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-44">
+		<TermName>Nom de l'acheteur</TermName>
+		<Definition>Le nom complet de l'acheteur.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-46">
+		<TermName>Identifiant de l'acheteur</TermName>
+		<Definition>Un identifiant de l'acheteur.</Definition>
+		<DisplayName>ID</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-48">
+		<TermName>Identifiant TVA de l'acheteur</TermName>
+		<Definition>L'identifiant TVA de l'acheteur.</Definition>
+		<DisplayName>ID TVA</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-8">
+		<TermName>Adresse postale de l'acheteur</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur l'adresse postale de l'acheteur.</Definition>
+		<DisplayName>Adresse</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-52">
+		<TermName>Ville de l'acheteur</TermName>
+		<Definition>Le nom commun de la ville où se situe l'adresse de l'acheteur.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-55">
+		<TermName>Code pays de l'acheteur</TermName>
+		<Definition>Un code qui identifie le pays de l'acheteur.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BG-10">
+		<TermName>Bénéficiaire</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur le bénéficiaire, c'est-à-dire le rôle qui reçoit le paiement.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-59">
+		<TermName>Nom du bénéficiaire</TermName>
+		<Definition>Le nom du bénéficiaire.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BG-13">
+		<TermName>Informations de livraison</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur le lieu et la date de livraison des biens et services facturés.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-72">
+		<TermName>Date de livraison réelle</TermName>
+		<Definition>La date à laquelle la fourniture de biens ou de services a été effectuée ou achevée.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BG-14">
+		<TermName>Période de facturation</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur la période de la facture.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-73">
+		<TermName>Date de début de la période de facturation</TermName>
+		<Definition>La date à laquelle la période de facturation commence.</Definition>
+		<DisplayName>Date de début de période</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-74">
+		<TermName>Date de fin de la période de facturation</TermName>
+		<Definition>La date à laquelle la période de facturation se termine.</Definition>
+		<DisplayName>Date de fin de période</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-16">
+		<TermName>Moyens de paiement</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur le paiement.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-81">
+		<TermName>Code du type de moyen de paiement</TermName>
+		<Definition>Le moyen, exprimé sous forme de code, par lequel un paiement doit être ou a été réglé.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-84">
+		<TermName>N° de compte</TermName>
+		<Definition>Un identifiant unique du compte de paiement financier, auprès d'un prestataire de services de paiement, sur lequel le paiement doit être effectué.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BG-20">
+		<TermName>Remises au niveau du document</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur les remises applicables à la facture dans son ensemble.</Definition>
+		<DisplayName>REMISES</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-92">
+		<TermName>Montant de la remise au niveau du document</TermName>
+		<Definition>Le montant d'une remise, hors TVA.</Definition>
+		<DisplayName>Montant</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-21">
+		<TermName>Frais au niveau du document</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur les frais et taxes autres que la TVA, applicables à la facture dans son ensemble.</Definition>
+		<DisplayName>FRAIS</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-22">
+		<TermName>Totaux du document</TermName>
+		<Definition>Un groupe de termes métiers fournissant les totaux monétaires de la facture.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-106">
+		<TermName>Total</TermName>
+		<Definition>Somme de tous les montants nets des lignes de facture.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-109">
+		<TermName>Montant total hors TVA</TermName>
+		<Definition>Le montant total de la facture hors TVA.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-110">
+		<TermName>Total TVA</TermName>
+		<Definition>Le montant total de la TVA pour la facture.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-112">
+		<TermName>Montant total TTC</TermName>
+		<Definition>Le montant total de la facture toutes taxes comprises (TVA incluse).</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-115">
+		<TermName>Montant à payer</TermName>
+		<Definition>Le montant restant dû dont le paiement est demandé.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BG-23">
+		<TermName>Ventilation de la TVA</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur la ventilation de la TVA par catégories, taux et motifs d'exemption.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-122">
+		<TermName>Référence du document justificatif</TermName>
+		<Definition>Un identifiant du document justificatif.</Definition>
+		<DisplayName>Référence</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-123">
+		<TermName>Description du document justificatif</TermName>
+		<Definition>Une description du document justificatif (ex: feuille de temps, rapport d'utilisation).</Definition>
+		<DisplayName>Description</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-125">
+		<TermName>Document joint</TermName>
+		<Definition>Un document joint intégré en tant qu'objet binaire ou envoyé avec la facture.</Definition>
+		<DisplayName>Pièce jointe</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-25">
+		<TermName>Ligne de facture</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur les lignes de facture individuelles.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-126">
+		<TermName>Identifiant de ligne de facture</TermName>
+		<Definition>Un identifiant unique pour la ligne individuelle au sein de la facture.</Definition>
+		<DisplayName>ID Ligne</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-129">
+		<TermName>Quantité facturée</TermName>
+		<Definition>La quantité d'articles (biens ou services) qui est facturée dans la ligne de facture.</Definition>
+		<DisplayName>Quantité</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-130">
+		<TermName>Code d'unité de mesure de la quantité facturée</TermName>
+		<Definition>L'unité de mesure qui s'applique à la quantité facturée.</Definition>
+		<DisplayName>Unité de mesure</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-131">
+		<TermName>Montant net de la ligne de facture</TermName>
+		<Definition>Le montant total de la ligne de facture (hors TVA).</Definition>
+		<DisplayName>Montant</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-27">
+		<TermName>Remises de ligne de facture</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur les remises applicables à la ligne de facture individuelle.</Definition>
+		<DisplayName>Remise</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-136">
+		<TermName>Montant de la remise de ligne de facture</TermName>
+		<Definition>Le montant d'une remise sur la ligne, hors TVA.</Definition>
+		<DisplayName>Montant de remise</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-28">
+		<TermName>Frais de ligne de facture</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur les frais et taxes autres que la TVA applicables à la ligne de facture individuelle.</Definition>
+		<DisplayName>Frais</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-141">
+		<TermName>Montant des frais de ligne de facture</TermName>
+		<Definition>Le montant d'un frais sur la ligne, hors TVA.</Definition>
+		<DisplayName>Montant des frais</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-29">
+		<TermName>Détails du prix</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur le prix appliqué pour les biens et services facturés sur la ligne de facture.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-146">
+		<TermName>Prix net de l'article</TermName>
+		<Definition>Le prix d'un article, hors TVA, après déduction de la remise sur le prix de l'article.</Definition>
+		<DisplayName>Montant unitaire</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-149">
+		<TermName>Quantité de base du prix de l'article</TermName>
+		<Definition>Le nombre d'unités d'article auxquelles le prix s'applique.</Definition>
+		<DisplayName>Quantité de base</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-151">
+		<TermName>Code de catégorie de TVA de l'article facturé</TermName>
+		<Definition>Le code de catégorie de TVA pour l'article facturé.</Definition>
+		<DisplayName>TVA</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-31">
+		<TermName>Informations sur l'article</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur les biens et services facturés.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-153">
+		<TermName>Nom de l'article</TermName>
+		<Definition>Un nom pour un article.</Definition>
+		<DisplayName>Nom</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-154">
+		<TermName>Description de l'article</TermName>
+		<Definition>Une description pour un article.</Definition>
+		<DisplayName>Description</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-155">
+		<TermName>Identifiant vendeur de l'article</TermName>
+		<Definition>Un identifiant, attribué par le vendeur, pour l'article.</Definition>
+		<DisplayName>N° d'article</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-157">
+		<TermName>Identifiant standard de l'article</TermName>
+		<Definition>Un identifiant d'article basé sur un schéma enregistré.</Definition>
+		<DisplayName>ID Standard</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-158">
+		<TermName>Identifiant de classification de l'article</TermName>
+		<Definition>Un code pour classer l'article par son type ou sa nature.</Definition>
+		<DisplayName>Code de classification</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-159">
+		<TermName>Pays d'origine de l'article</TermName>
+		<Definition>Le code identifiant le pays dont l'article est originaire.</Definition>
+		<DisplayName>Pays d'origine</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BG-32">
+		<TermName>Attributs de l'article</TermName>
+		<Definition>Un groupe de termes métiers fournissant des informations sur les propriétés des biens et services facturés.</Definition>
+	</BusinessTerm>
+	<BusinessTerm id="BT-160">
+		<TermName>Nom de l'attribut de l'article</TermName>
+		<Definition>Le nom de l'attribut ou de la propriété de l'article (ex: "Couleur").</Definition>
+		<DisplayName>Attribut</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="BT-161">
+		<TermName>Valeur de l'attribut de l'article</TermName>
+		<Definition>La valeur de l'attribut ou de la propriété de l'article (ex: "Rouge").</Definition>
+		<DisplayName>Valeur de l'attribut</DisplayName>
+	</BusinessTerm>
+</SemanticModel>

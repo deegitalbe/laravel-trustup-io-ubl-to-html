@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+    <Identification>
+        <ShortName>UNCL4461</ShortName>
+        <Version></Version>
+        <CanonicalUri></CanonicalUri>
+        <CanonicalVersionUri></CanonicalVersionUri>
+    </Identification>
+    <ColumnSet>
+        <Column Id="code" Use="required">
+            <ShortName>Code</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Column Id="name" Use="optional">
+            <ShortName>Name</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Key Id="codeKey">
+            <ShortName>CodeKey</ShortName>
+            <ColumnRef Ref="code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>1</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Nicht definiertes Instrument</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>2</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>ACH-Gutschrift</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>3</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>ACH-Lastschrift</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>9</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Nationale oder regionale Verrechnung</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>10</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Barzahlung</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>20</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Scheck</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>21</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Bankwechsel</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>30</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Überweisung</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>31</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Lastschriftverfahren</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>42</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Zahlung auf Bankkonto</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>44</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Akzeptierter Wechsel</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>48</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Bankkarte</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>49</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Lastschrift</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>50</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Postgiro-Zahlung</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>51</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Norm 6 97-Télérèglement CFONB</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>54</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Kreditkarte</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>55</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Debitkarte</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>58</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>SEPA-Überweisung</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>59</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>SEPA-Lastschrift</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>60</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Solawechsel</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>68</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Online-Zahlungsdienst</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>93</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Referenzgiro</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>97</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Verrechnung zwischen Partnern</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>ZZZ</SimpleValue></Value>
+            <Value ColumnRef="name"><SimpleValue>Gegenseitig vereinbart</SimpleValue></Value>
+        </Row>
+    </SimpleCodeList>
+</CodeList>
