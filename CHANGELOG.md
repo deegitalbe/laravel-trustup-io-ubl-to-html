@@ -1,5 +1,11 @@
 # laravel-trustup-io-ubl-to-html
 
+## 0.1.3
+
+### Patch Changes
+
+- 57cbbd9: Adding belgian trad for french speaking user from Walloon
+
 ## 0.1.2
 
 ### Patch Changes
