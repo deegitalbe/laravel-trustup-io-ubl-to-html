@@ -58,12 +58,21 @@
         <DisplayName>Infos comptables</DisplayName>
     </BusinessTerm>
     <BusinessTerm id="UMZ-BT-014">
+<<<<<<< Updated upstream
         <TermName>Devise de l'avoir</TermName>
         <DisplayName>Devise de l'avoir</DisplayName>
     </BusinessTerm>
     <BusinessTerm id="UMZ-BT-015">
         <TermName>Date d'émission de l'avoir</TermName>
         <DisplayName>Date de l'avoir</DisplayName>
+=======
+        <TermName>Devise de la note de crédit</TermName>
+        <DisplayName>Devise de la note de crédit</DisplayName>
+    </BusinessTerm>
+    <BusinessTerm id="UMZ-BT-015">
+        <TermName>Date d'émission de la note de crédit</TermName>
+        <DisplayName>Date de la note de crédit</DisplayName>
+>>>>>>> Stashed changes
     </BusinessTerm>
     <BusinessTerm id="UMZ-BT-016">
         <TermName>ID de l'adresse</TermName>
