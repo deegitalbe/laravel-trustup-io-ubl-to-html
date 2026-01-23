@@ -34,11 +34,7 @@
                 <SimpleValue>CreditNote</SimpleValue>
             </Value>
             <Value ColumnRef="name">
-<<<<<<< Updated upstream
-                <SimpleValue>AVOIR</SimpleValue>
-=======
                 <SimpleValue>NOTE DE CRÉDIT</SimpleValue>
->>>>>>> Stashed changes
             </Value>
         </Row>
     </SimpleCodeList>

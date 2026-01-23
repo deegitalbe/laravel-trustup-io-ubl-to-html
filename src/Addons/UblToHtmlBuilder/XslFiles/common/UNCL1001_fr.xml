@@ -130,11 +130,7 @@
                 <SimpleValue>381</SimpleValue>
             </Value>
             <Value ColumnRef="name">
-<<<<<<< Updated upstream
-                <SimpleValue>Avoir</SimpleValue>
-=======
                 <SimpleValue>Note de crédit</SimpleValue>
->>>>>>> Stashed changes
             </Value>
         </Row>
         <Row>
@@ -142,11 +138,7 @@
                 <SimpleValue>396</SimpleValue>
             </Value>
             <Value ColumnRef="name">
-<<<<<<< Updated upstream
-                <SimpleValue>Avoir affacturé</SimpleValue>
-=======
                 <SimpleValue>Note de crédit affacturé</SimpleValue>
->>>>>>> Stashed changes
             </Value>
         </Row>
         <Row>
@@ -154,11 +146,7 @@
                 <SimpleValue>532</SimpleValue>
             </Value>
             <Value ColumnRef="name">
-<<<<<<< Updated upstream
-                <SimpleValue>Avoir de transitaire</SimpleValue>
-=======
                 <SimpleValue>Note de crédit transitaire</SimpleValue>
->>>>>>> Stashed changes
             </Value>
         </Row>
     </SimpleCodeList>
