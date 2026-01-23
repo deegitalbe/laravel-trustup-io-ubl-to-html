@@ -1,5 +1,11 @@
 # laravel-trustup-io-ubl-to-html
 
+## 0.1.4
+
+### Patch Changes
+
+- e596bf2: Resolving conflict that persisted
+
 ## 0.1.3
 
 ### Patch Changes
