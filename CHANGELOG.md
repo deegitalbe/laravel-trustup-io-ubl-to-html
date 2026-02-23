@@ -1,5 +1,11 @@
 # laravel-trustup-io-ubl-to-html
 
+## 1.0.1
+
+### Patch Changes
+
+- b5c9416: Testing release flow.
+
 ## 0.1.5
 
 ### Patch Changes
