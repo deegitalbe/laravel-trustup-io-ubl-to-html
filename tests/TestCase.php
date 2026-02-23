@@ -13,7 +13,7 @@ class TestCase extends VersionablePackageTestCase
         return LaravelTrustupIoUblToHtml::class;
     }
 
-    public function getEnvironmentSetUp($app)
+    public function getEnvironmentSetUp($app): void
     {
         $this->loadMigrations();
     }

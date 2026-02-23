@@ -7,8 +7,6 @@ services:
     image: "laravel-trustup-io-ubl-to-html-php-local"
     volumes:
       - ./:/opt/apps/app
-    env_file:
-      - .env
   bun:
     build:
       context: .
