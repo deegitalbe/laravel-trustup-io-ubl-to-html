@@ -119,6 +119,53 @@ class UblToHtmlTest extends TestCase
 
     }
 
+    public function test_fr_fr_credit_note_uses_avoir()
+    {
+        $service = $this->app->make(UblToHtmlService::class);
+
+        $ublContent = file_get_contents(__DIR__.'/../Stubs/Xml/UBL-CreditNote-2.1-Stub.xml');
+
+        $htmlContent = $service->generate($ublContent, Locale::FR_FR->value);
+
+        $dom = new \DOMDocument;
+        libxml_use_internal_errors(true);
+        assertTrue($dom->loadHTML($htmlContent));
+
+        $this->assertStringContainsString('AVOIR', $htmlContent);
+        $this->assertStringNotContainsString('NOTE DE CRÉDIT', $htmlContent);
+    }
+
+    public function test_be_fr_credit_note_uses_note_de_credit()
+    {
+        $service = $this->app->make(UblToHtmlService::class);
+
+        $ublContent = file_get_contents(__DIR__.'/../Stubs/Xml/UBL-CreditNote-2.1-Stub.xml');
+
+        $htmlContent = $service->generate($ublContent, Locale::BE_FR->value);
+
+        $dom = new \DOMDocument;
+        libxml_use_internal_errors(true);
+        assertTrue($dom->loadHTML($htmlContent));
+
+        $this->assertStringContainsString('NOTE DE CRÉDIT', $htmlContent);
+        $this->assertStringNotContainsString('AVOIR', $htmlContent);
+    }
+
+    public function test_fr_fr_invoice_generates_valid_html()
+    {
+        $service = $this->app->make(UblToHtmlService::class);
+
+        $ublContent = file_get_contents(__DIR__.'/../Stubs/Xml/UBL-Invoice-2.1-Salameche.xml');
+
+        $htmlContent = $service->generate($ublContent, Locale::FR_FR->value);
+
+        $dom = new \DOMDocument;
+        libxml_use_internal_errors(true);
+        assertTrue($dom->loadHTML($htmlContent));
+
+        $this->assertStringContainsString('FACTURE', $htmlContent);
+    }
+
     public function test_it_can_assert_true_on_service()
     {
         $this->assertTrue(LaravelTrustupIoUblToHtmlFacade::getTrue());

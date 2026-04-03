@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+    <Identification>
+        <ShortName>UNCL5189</ShortName>
+        <Version></Version>
+        <CanonicalUri></CanonicalUri>
+        <CanonicalVersionUri></CanonicalVersionUri>
+    </Identification>
+    <ColumnSet>
+        <Column Id="code" Use="required">
+            <ShortName>Code</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Column Id="name" Use="optional">
+            <ShortName>Name</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Key Id="codeKey">
+            <ShortName>CodeKey</ShortName>
+            <ColumnRef Ref="code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>41</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Prime pour achèvement des travaux en avance</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>42</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Autre prime</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>60</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Remise consommateur du fabricant</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>62</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Lié au statut militaire</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>63</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Lié à un accident du travail</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>64</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Accord spécial</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>65</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Remise pour erreur de production</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>66</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Remise pour nouveau point de vente</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>67</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Remise sur échantillon</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>68</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Remise de fin de série</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>70</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Remise Incoterm</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>71</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Remise sur seuil de point de vente</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>88</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Majoration ou déduction sur matériel</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>95</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Remise</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>100</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Ristourne spéciale</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>102</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Fixe à long terme</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>103</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Temporaire</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>104</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Standard</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>105</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Chiffre d'affaires annuel</SimpleValue>
+            </Value>
+        </Row>
+    </SimpleCodeList>
+</CodeList>
