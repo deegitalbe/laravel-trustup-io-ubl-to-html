@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+    <Identification>
+        <ShortName>UNCL7161</ShortName>
+        <Version></Version>
+        <CanonicalUri></CanonicalUri>
+        <CanonicalVersionUri></CanonicalVersionUri>
+    </Identification>
+    <ColumnSet>
+        <Column Id="code" Use="required">
+            <ShortName>Code</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Column Id="name" Use="optional">
+            <ShortName>Name</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Key Id="codeKey">
+            <ShortName>CodeKey</ShortName>
+            <ColumnRef Ref="code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Publicité</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AAA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Télécommunication</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AAC</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Modification technique</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AAD</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Production à la commande</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AAE</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Débours</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AAF</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Hors site</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AAH</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Traitement additionnel</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AAI</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Attestation</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AAS</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Acceptation</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AAT</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Livraison urgente</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AAV</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Construction spéciale</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AAY</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Installations aéroportuaires</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AAZ</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Concession</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ABA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Stockage obligatoire</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ABB</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Retrait de carburant</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ABC</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Services en piste (avitaillement)</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ABD</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Heures supplémentaires</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ABF</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Outillage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ABK</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Divers</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ABL</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Emballage additionnel</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ABN</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Fardage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ABR</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Conteneurisation</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ABS</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Emballage carton</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ABT</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Emballage sous toile de jute</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ABU</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Emballage sous film polyéthylène</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ACF</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Traitements divers</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ACG</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Émaillage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ACH</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Traitement thermique</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ACI</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Plaquage / Revêtement électrolytique</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ACJ</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Peinture</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ACK</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Polissage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ACL</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Apprêt / Couche primaire</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ACM</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Traitement de conservation</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ACS</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Pose / Montage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADC</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Groupage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADE</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Connaissement</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADJ</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Coussin gonflable (Airbag)</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADK</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Transfert</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADL</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Intercalaire (Slipsheet)</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADM</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Reliure</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADN</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Réparation ou remplacement d'emballage consigné cassé</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADO</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Logistique efficace</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADP</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Merchandising</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADQ</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Mix produit</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADR</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Autres services</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADT</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Enlèvement</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADW</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Maladie chronique</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADY</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Introduction de nouveau produit</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ADZ</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Livraison directe</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Déroutement</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEB</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Déconnexion</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEC</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Distribution</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AED</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Manutention de cargaison dangereuse</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEF</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Loyers et baux</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEH</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Différentiel de lieu</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEI</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Ravitaillement d'aéronef</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEJ</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Carburant expédié en stockage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEK</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Contre-remboursement</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEL</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service de traitement de petite commande</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEM</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Services administratifs ou de secrétariat</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEN</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Garantie</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEO</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Collecte et recyclage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEP</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Collecte de droits d'auteur</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AES</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service d'inspection vétérinaire</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AET</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service aux retraités</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEU</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Titulaire de gratuité médicale</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEV</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service de protection de l'environnement</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEW</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service de dépollution environnementale</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEX</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Traitement de chèque national hors zone de compte</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEY</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service de paiement national hors zone de compte</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AEZ</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service de paiement national dans la zone de compte</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AJ</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Ajustements</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>AU</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Authentification</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Catalogage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAB</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Camionnage / Transport par charrette</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAD</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Certification</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAE</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Certificat de conformité</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAF</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Certificat d'origine</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAI</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Découpe</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAJ</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service consulaire</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAK</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Enlèvement par le client</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAL</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service de paiement des salaires</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAM</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Transport de fonds</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAN</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service de banque à domicile</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAO</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service d'accord bilatéral</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAP</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service de courtage d'assurance</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAQ</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Génération de chèque</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAR</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Emplacement de merchandising préférentiel</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAS</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Grue</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAT</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service de couleur spéciale</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAU</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Tri</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAV</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Collecte et recyclage de batteries</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CAW</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Frais de reprise de produit</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CD</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Chargement de véhicule</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CG</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Nettoyage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CS</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Timbrage de cigarettes</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>CT</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Comptage et recomptage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>DAB</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Conception / Design</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>DAD</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Déchargement par le chauffeur</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>DL</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Livraison</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>EG</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Gravure</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>EP</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Expédition (Accélération)</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ER</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Garantie du taux de change</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>FAA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Fabrication</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>FAB</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Égalisation du fret</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>FAC</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Manutention extraordinaire du fret</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>FC</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Service de fret</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>FH</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Remplissage / Manutention</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>FI</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Financement</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>GAA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Meulage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>HAA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Tuyau / Flexible</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>HD</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Manutention</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>HH</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Levage et roulage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>IAA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Installation</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>IAB</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Installation et garantie</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ID</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Livraison à l'intérieur</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>IF</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Inspection</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>IR</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Installation et formation</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>IS</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Facturation</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>KO</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Cachérisation (Casher)</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>L1</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Comptage par le transporteur</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>LA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Étiquetage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>LAA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Main-d'œuvre</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>LAB</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Réparation et retour</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>LF</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Légalisation</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>MAE</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Montage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>MI</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Envoi de facture par courrier</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ML</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Envoi de facture à chaque site</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>NAA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Conteneurs perdus (non retournables)</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>OA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Connecteurs de câbles extérieurs</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>PA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Facture avec expédition</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>PAA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Phosphatation (traitement de l'acier)</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>PC</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Emballage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>PL</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Palettisation</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>RAB</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Ré-emballage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>RAC</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Réparation</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>RAD</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Conteneur consigné</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>RAF</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Réapprovisionnement</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>RE</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Nouvelle livraison</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>RF</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Remise à neuf</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>RH</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Location de wagon de chemin de fer</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>RV</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Chargement</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>SA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Récupération</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>SAA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Expédition et manutention</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>SAD</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Emballage spécial</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>SAE</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Estampage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>SAI</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Déchargement par le destinataire</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>SG</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Film rétractable</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>SH</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Manutention spéciale</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>SM</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Finition spéciale</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>SU</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Mise en service / Installation</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>TAB</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Location de citerne</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>TAC</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Test / Essai</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>TT</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Transport - facturation tiers</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>TV</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Transport par le vendeur</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>V1</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Dépôt de stockage (cour)</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>V2</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Quai de déchargement</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>WH</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Entreposage</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>XAA</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Combiner toutes les expéditions du même jour</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>YY</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Enlèvement fractionné</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>ZZZ</SimpleValue>
+            </Value>
+            <Value ColumnRef="name">
+                <SimpleValue>Défini mutuellement</SimpleValue>
+            </Value>
+        </Row>
+    </SimpleCodeList>
+</CodeList>

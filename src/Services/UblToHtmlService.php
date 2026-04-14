@@ -16,7 +16,9 @@ class UblToHtmlService
         }
 
         $value = $localeEnum->value;
-        $languageCode = explode('-', $value)[1];
+        $languageCode = $localeEnum === Locale::FR_FR
+            ? $value
+            : explode('-', $value)[1];
         // Path to your XSL file (this *is* a file path)
         $xslPath = __DIR__.'/../Addons/UblToHtmlBuilder/XslFiles/render-billing-3.xsl';
 
