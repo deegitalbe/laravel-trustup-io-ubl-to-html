@@ -1,5 +1,11 @@
 # laravel-trustup-io-ubl-to-html
 
+## 1.0.2
+
+### Patch Changes
+
+- be35e3d: Support FR-FR locale with "Avoir" instead of "Note de crédit" for French tenants
+
 ## 1.0.1
 
 ### Patch Changes
