@@ -31,7 +31,7 @@ class UblToHtmlService
         $xmlDoc->preserveWhiteSpace = false;
         $xmlDoc->formatOutput = false;
 
-        if (! $xmlDoc->loadXML($ublContent)) {
+        if (! $xmlDoc->loadXML($ublContent, LIBXML_PARSEHUGE | LIBXML_NONET)) {
             abort(500, 'Impossible de charger le XML UBL depuis la chaîne.');
         }
 
