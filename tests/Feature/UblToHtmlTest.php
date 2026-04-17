@@ -175,4 +175,26 @@ class UblToHtmlTest extends TestCase
     {
         $this->assertInstanceOf(LaravelTrustupIoUblToHtml::class, $this->app->make(LaravelTrustupIoUblToHtmlContract::class));
     }
+
+    public function test_it_parses_ubl_with_text_node_above_libxml_default_limit()
+    {
+        $service = $this->app->make(UblToHtmlService::class);
+
+        $ublContent = file_get_contents(__DIR__.'/../Stubs/Xml/UBL-Invoice-2.1-Salameche.xml');
+
+        // libxml's default max text-node length is ~10MB. Real-world Peppol/UBL
+        // invoices can embed PDFs as base64 and exceed this. Without
+        // LIBXML_PARSEHUGE, loadXML() aborts with "Text node too long".
+        $hugeText = str_repeat('A', 11 * 1024 * 1024);
+        $ublWithHugeTextNode = str_replace(
+            '<cbc:Note>Cum.</cbc:Note>',
+            '<cbc:Note>'.$hugeText.'</cbc:Note>',
+            $ublContent
+        );
+
+        $htmlContent = $service->generate($ublWithHugeTextNode, Locale::BE_FR->value);
+
+        $this->assertIsString($htmlContent);
+        $this->assertNotEmpty($htmlContent);
+    }
 }
